@@ -2,96 +2,100 @@
 title: "About Us"
 ---
 
-# About the Conference
-
 ## Our Mission
 
-The Conference Name is dedicated to advancing knowledge and innovation in the field of [specific field]. We strive to create a platform for researchers, practitioners, and industry experts to exchange ideas, share discoveries, and build collaborations that drive progress in our field.
+The Conference Name is dedicated to advancing knowledge and innovation in the field of economics. We strive to create a platform for researchers, practitioners, and industry experts to exchange ideas, share discoveries, and build collaborations that drive progress in our field.
 
 ## Conference History
 
-Established in 2018, our conference has grown from a small regional meeting with 120 participants to an international event drawing over 450 attendees from 35+ countries. Throughout our history, we have maintained a commitment to scientific excellence, inclusivity, and fostering connections across disciplines.
+Established in 2023, our conference has grown from a small regional meeting with 50 participants from 12+ countries. Throughout our history, we have maintained a commitment to scientific excellence, inclusivity, and fostering connections across disciplines.
 
 ## Organizing Committee
 
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/dina.jpeg){.committee-img}
-### Prof. Elizabeth Johnson
-**Chair**
+![](){.committee-img}
 
-Professor of [Field] at University Name
-[email@example.com](mailto:email@example.com)
+#### Kosal Nith
+**Conference Coordinator**
+
+Young Scholars Initiative
+
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/Samreth.jpeg){.committee-img}
-### Dr. Michael Wong
-**Program Chair**
+![](){.committee-img}
 
-Director of Research at Institute Name
-[email@example.com](mailto:email@example.com)
+#### Sattwick Dey Biswas
+**Program Lead**
+
+Young Scholars Initiative
+
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/Chou.jpg){.committee-img}
-### Dr. Sarah Patel
-**Local Arrangements**
+![](){.committee-img}
 
-Associate Professor at University Name
-[email@example.com](mailto:email@example.com)
+#### Sokhimmarya Chea
+**Logistics Lead**
+
+Royal University of Law and Economics
+
 :::
 
-::::
+::: {.g-col-12 .g-col-md-4}
+![](){.committee-img}
 
-:::: {.grid}
+#### Sreymeng Sros
+**Logistics Lead**
+
+Royal University of Law and Economics
+
+:::
+
 
 ::: {.g-col-12 .g-col-md-4}
 ![](committee4.jpg){.committee-img}
-### Prof. Carlos Rodriguez
-**Publications Chair**
 
-Professor at University Name
-[email@example.com](mailto:email@example.com)
+#### Sinoun Him
+**Communication Lead**
+
+Ministry of Post and Telecommunication
+
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ![](committee5.jpg){.committee-img}
-### Dr. Lisa Chen
-**Sponsorship Chair**
 
-Senior Researcher at Company Name
-[email@example.com](mailto:email@example.com)
+#### Sivly Houy
+**Finance Lead**
+
+Cambodia Development Resource Institute
+
 :::
-
-::: {.g-col-12 .g-col-md-4}
-![](committee6.jpg){.committee-img}
-### Dr. Thomas Smith
-**Student Programs**
-
-Professor at University Name
-[email@example.com](mailto:email@example.com)
-:::
-
 ::::
+
 
 ## Scientific Committee
 
 Our Scientific Committee comprises leading experts from around the world who ensure the quality and relevance of our conference program:
 
-- Prof. Amanda Liu, University Name, Country
-- Dr. James Rodriguez, Research Institute, Country
-- Prof. Sophia Kim, University Name, Country
-- Dr. Daniel Johnson, Company Name, Country
-- Prof. Maria Gonzalez, University Name, Country
-- Dr. Robert Brown, Research Institute, Country
-- Prof. Laura Williams, University Name, Country
-- Dr. David Lee, Company Name, Country
-- Prof. Elena Petrov, University Name, Country
-- Dr. John Adams, Research Institute, Country
-- Prof. Naomi Torres, University Name, Country
-- Dr. Michael Wilson, Company Name, Country
+- Rebeca Gomez Betancourt (Université Lumière Lyon 2, France)
+- Fabio Masini (Roma Tre University, Italy)
+- Simona Iammarino (The University of Cagliari and London School of Economics and Political Science, Italy)
+- Arpan Ganguly (FLAME University, India)
+- Danilo Spinola (Birmingham City University, UK)
+- Phanith Chou (Royal University of Phnom Penh, Cambodia)
+- Alejandro Márquez-Velázquez (Freie Universität Berlin, Mexico)
+- Thirunaukarasu Subramaniam (Universiti Malaya, Malaysia)
+- Chandarany Ouch (The United Nations, Cambodia)
+- Chanrith Ngin (Cambodia Development Resource Institute, Cambodia)
+- Daniel Yonto (Xi’an Jiaotong-Liverpool University, China)
+- Sattwick Dey Biswas (Young Scholars Initiative, India)
+- Kirirom Cheav (National University of Management, Cambodia)
+- Sophat Phon (National Bank of Cambodia and Cambodia Econometric Association, Cambodia)
+- Kosal Nith (Young Scholars Initiative, Cambodia)
 
 ## Our Values
 
@@ -107,11 +111,11 @@ Our conference is organized in collaboration with:
 
 :::: {.grid}
 ::: {.g-col-4 .text-center}
-![](images/dina.jpeg){.org-logo}
+![](){.org-logo}
 **University Name**
 :::
 ::: {.g-col-4 .text-center}
-![](images/Samreth.jpeg){.org-logo}
+![](){.org-logo}
 **Professional Society**
 :::
 ::: {.g-col-4 .text-center}

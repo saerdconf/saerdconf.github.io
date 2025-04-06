@@ -17,7 +17,7 @@ website:
       - text: Home
         href: index.qmd
       - text: Previous Editions
-        href: past-editions.qmd
+        href: previous-editions.qmd
       - text: About Us
         href: about.qmd
       - text: Contact
