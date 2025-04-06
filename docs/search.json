@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "past-editions.html",
+    "href": "past-editions.html",
+    "title": "Past Editions",
+    "section": "",
+    "text": "Our conference has a rich history of bringing together the brightest minds in [field/industry]. Below you can explore our past editions, including highlights, notable speakers, and published proceedings.\n\n\nTheme: “[Previous Year’s Theme]”\nDate: July 10-12, 2024\nLocation: University of Science, City Name\nParticipants: 450+ attendees from 35 countries\n\n\n\nKeynote by Nobel Laureate Dr. [Name]\nSpecial industry panel on [Topic]\nIntroduction of [New Initiative/Format]\nRecord number of abstract submissions\n\n\n\n\nThe proceedings from the 2024 conference are available in the [Journal Name] special issue and can be accessed here.\n\n\n\n\n\n\n\n\n\n\n\n\nTheme: “[Previous Year’s Theme]”\nDate: July 8-10, 2023\nLocation: Metropolitan Convention Center, Different City\nParticipants: 380+ attendees from 30 countries\n\n\n\nLaunch of the [Name] Award for Excellence\nVirtual participation options introduced\nWorkshop on [Topic] with industry leaders\nCollaboration agreement with [Partner Organization]\n\n\n\n\nThe proceedings from the 2023 conference are available in the [Journal Name] special issue and can be accessed here.\n\n\n\n\n\n\n\n\n\n\n\n\nTheme: “[Previous Year’s Theme]”\nDate: July 12-14, 2022\nLocation: Research Institute, Another City\nParticipants: 320+ attendees from 28 countries\n\n\n\nFirst hybrid conference format\nFocus on post-pandemic challenges in the field\nIntroduction of poster session\nSpecial recognition for early career researchers\n\n\n\n\nThe proceedings from the 2022 conference are available in the [Journal Name] special issue and can be accessed here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTheme: “[Theme]”\nLocation: Virtual Conference\nView Details\n\n\n\nTheme: “[Theme]”\nLocation: Virtual Conference\nView Details\n\n\n\nTheme: “[Theme]”\nLocation: University Name, City\nView Details\n\n\n\nTheme: “[Theme]”\nLocation: Conference Center, City\nView Details\n\n\n\n\nView our complete conference photo gallery"
+  },
+  {
+    "objectID": "past-editions.html#edition",
+    "href": "past-editions.html#edition",
+    "title": "Past Editions",
+    "section": "",
+    "text": "Theme: “[Previous Year’s Theme]”\nDate: July 10-12, 2024\nLocation: University of Science, City Name\nParticipants: 450+ attendees from 35 countries\n\n\n\nKeynote by Nobel Laureate Dr. [Name]\nSpecial industry panel on [Topic]\nIntroduction of [New Initiative/Format]\nRecord number of abstract submissions\n\n\n\n\nThe proceedings from the 2024 conference are available in the [Journal Name] special issue and can be accessed here."
+  },
+  {
+    "objectID": "past-editions.html#edition-1",
+    "href": "past-editions.html#edition-1",
+    "title": "Past Editions",
+    "section": "",
+    "text": "Theme: “[Previous Year’s Theme]”\nDate: July 8-10, 2023\nLocation: Metropolitan Convention Center, Different City\nParticipants: 380+ attendees from 30 countries\n\n\n\nLaunch of the [Name] Award for Excellence\nVirtual participation options introduced\nWorkshop on [Topic] with industry leaders\nCollaboration agreement with [Partner Organization]\n\n\n\n\nThe proceedings from the 2023 conference are available in the [Journal Name] special issue and can be accessed here."
+  },
+  {
+    "objectID": "past-editions.html#edition-2",
+    "href": "past-editions.html#edition-2",
+    "title": "Past Editions",
+    "section": "",
+    "text": "Theme: “[Previous Year’s Theme]”\nDate: July 12-14, 2022\nLocation: Research Institute, Another City\nParticipants: 320+ attendees from 28 countries\n\n\n\nFirst hybrid conference format\nFocus on post-pandemic challenges in the field\nIntroduction of poster session\nSpecial recognition for early career researchers\n\n\n\n\nThe proceedings from the 2022 conference are available in the [Journal Name] special issue and can be accessed here."
+  },
+  {
+    "objectID": "past-editions.html#earlier-editions",
+    "href": "past-editions.html#earlier-editions",
+    "title": "Past Editions",
+    "section": "",
+    "text": "Theme: “[Theme]”\nLocation: Virtual Conference\nView Details\n\n\n\nTheme: “[Theme]”\nLocation: Virtual Conference\nView Details\n\n\n\nTheme: “[Theme]”\nLocation: University Name, City\nView Details\n\n\n\nTheme: “[Theme]”\nLocation: Conference Center, City\nView Details"
+  },
+  {
+    "objectID": "past-editions.html#photo-gallery",
+    "href": "past-editions.html#photo-gallery",
+    "title": "Past Editions",
+    "section": "",
+    "text": "View our complete conference photo gallery"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "We’re here to help with any questions you may have about the Conference Name 2025. Please feel free to reach out using any of the methods below.\n\n\n\n\n\nFor general questions about the conference:\nEmail: info@conferencename.org\nPhone: +1 (555) 123-4567\n\n\n\nFor assistance with registration:\nEmail: registration@conferencename.org\nPhone: +1 (555) 123-4568\n\n\n\n\n\nFor inquiries about the program or abstract submissions:\nEmail: program@conferencename.org\n\n\n\nFor information about becoming a sponsor:\nEmail: sponsors@conferencename.org\n\n\n\n\n\nConference Center Name\n123 Conference Street\nCity, State/Province, ZIP\nCountry\n\n\n\n\n\n\n\n\n\n&lt;label for=\"name\" class=\"form-label\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Your Name\"&gt;\n\n\n&lt;label for=\"email\" class=\"form-label\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"your.email@example.com\"&gt;\n\n\n&lt;label for=\"subject\" class=\"form-label\"&gt;Subject&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"subject\" placeholder=\"Subject\"&gt;\n\n\n&lt;label for=\"message\" class=\"form-label\"&gt;Message&lt;/label&gt;\n&lt;textarea class=\"form-control\" id=\"message\" rows=\"5\" placeholder=\"Your message\"&gt;&lt;/textarea&gt;\n\n\nSubmit\n\n\n\n\n\nStay up-to-date with the latest conference news, deadlines, and announcements by subscribing to our newsletter.\n\n\n&lt;label for=\"subscribe-email\" class=\"form-label\"&gt;Email Address&lt;/label&gt;\n&lt;input type=\"email\" class=\"form-control\" id=\"subscribe-email\" placeholder=\"your.email@example.com\"&gt;\n\n\nSubscribe\n\n\n\n\n\nFollow us on social media for real-time updates and to join the conversation:\n\n Twitter  LinkedIn  Facebook  Instagram"
+  },
+  {
+    "objectID": "contact.html#contact-information",
+    "href": "contact.html#contact-information",
+    "title": "Contact Us",
+    "section": "",
+    "text": "For general questions about the conference:\nEmail: info@conferencename.org\nPhone: +1 (555) 123-4567\n\n\n\nFor assistance with registration:\nEmail: registration@conferencename.org\nPhone: +1 (555) 123-4568\n\n\n\n\n\nFor inquiries about the program or abstract submissions:\nEmail: program@conferencename.org\n\n\n\nFor information about becoming a sponsor:\nEmail: sponsors@conferencename.org"
+  },
+  {
+    "objectID": "contact.html#conference-venue",
+    "href": "contact.html#conference-venue",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Conference Center Name\n123 Conference Street\nCity, State/Province, ZIP\nCountry"
+  },
+  {
+    "objectID": "contact.html#send-us-a-message",
+    "href": "contact.html#send-us-a-message",
+    "title": "Contact Us",
+    "section": "",
+    "text": "&lt;label for=\"name\" class=\"form-label\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Your Name\"&gt;\n\n\n&lt;label for=\"email\" class=\"form-label\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"your.email@example.com\"&gt;\n\n\n&lt;label for=\"subject\" class=\"form-label\"&gt;Subject&lt;/label&gt;\n&lt;input type=\"text\" class=\"form-control\" id=\"subject\" placeholder=\"Subject\"&gt;\n\n\n&lt;label for=\"message\" class=\"form-label\"&gt;Message&lt;/label&gt;\n&lt;textarea class=\"form-control\" id=\"message\" rows=\"5\" placeholder=\"Your message\"&gt;&lt;/textarea&gt;\n\n\nSubmit"
+  },
+  {
+    "objectID": "contact.html#subscribe-to-updates",
+    "href": "contact.html#subscribe-to-updates",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Stay up-to-date with the latest conference news, deadlines, and announcements by subscribing to our newsletter.\n\n\n&lt;label for=\"subscribe-email\" class=\"form-label\"&gt;Email Address&lt;/label&gt;\n&lt;input type=\"email\" class=\"form-control\" id=\"subscribe-email\" placeholder=\"your.email@example.com\"&gt;\n\n\nSubscribe"
+  },
+  {
+    "objectID": "contact.html#connect-with-us",
+    "href": "contact.html#connect-with-us",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Follow us on social media for real-time updates and to join the conversation:\n\n Twitter  LinkedIn  Facebook  Instagram"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "The Conference Name is dedicated to advancing knowledge and innovation in the field of [specific field]. We strive to create a platform for researchers, practitioners, and industry experts to exchange ideas, share discoveries, and build collaborations that drive progress in our field.\n\n\n\nEstablished in 2018, our conference has grown from a small regional meeting with 120 participants to an international event drawing over 450 attendees from 35+ countries. Throughout our history, we have maintained a commitment to scientific excellence, inclusivity, and fostering connections across disciplines.\n\n\n\n\n\n ### Prof. Elizabeth Johnson Chair\nProfessor of [Field] at University Name email@example.com\n\n\n ### Dr. Michael Wong Program Chair\nDirector of Research at Institute Name email@example.com\n\n\n ### Dr. Sarah Patel Local Arrangements\nAssociate Professor at University Name email@example.com\n\n\n\n\n ### Prof. Carlos Rodriguez Publications Chair\nProfessor at University Name email@example.com\n\n\n ### Dr. Lisa Chen Sponsorship Chair\nSenior Researcher at Company Name email@example.com\n\n\n ### Dr. Thomas Smith Student Programs\nProfessor at University Name email@example.com\n\n\n\n\n\nOur Scientific Committee comprises leading experts from around the world who ensure the quality and relevance of our conference program:\n\nProf. Amanda Liu, University Name, Country\nDr. James Rodriguez, Research Institute, Country\nProf. Sophia Kim, University Name, Country\nDr. Daniel Johnson, Company Name, Country\nProf. Maria Gonzalez, University Name, Country\nDr. Robert Brown, Research Institute, Country\nProf. Laura Williams, University Name, Country\nDr. David Lee, Company Name, Country\nProf. Elena Petrov, University Name, Country\nDr. John Adams, Research Institute, Country\nProf. Naomi Torres, University Name, Country\nDr. Michael Wilson, Company Name, Country\n\n\n\n\n\nExcellence: Promoting the highest standards of scientific research and discourse\nInclusivity: Creating a welcoming environment for participants from diverse backgrounds\nInnovation: Encouraging novel ideas and approaches that advance our field\nCollaboration: Fostering connections and partnerships across institutions and disciplines\nImpact: Supporting research that addresses real-world challenges and creates positive change\n\n\n\n\nOur conference is organized in collaboration with:\n\n\n University Name\n\n\n Professional Society\n\n\n Research Institute"
+  },
+  {
+    "objectID": "about.html#our-mission",
+    "href": "about.html#our-mission",
+    "title": "About Us",
+    "section": "",
+    "text": "The Conference Name is dedicated to advancing knowledge and innovation in the field of [specific field]. We strive to create a platform for researchers, practitioners, and industry experts to exchange ideas, share discoveries, and build collaborations that drive progress in our field."
+  },
+  {
+    "objectID": "about.html#conference-history",
+    "href": "about.html#conference-history",
+    "title": "About Us",
+    "section": "",
+    "text": "Established in 2018, our conference has grown from a small regional meeting with 120 participants to an international event drawing over 450 attendees from 35+ countries. Throughout our history, we have maintained a commitment to scientific excellence, inclusivity, and fostering connections across disciplines."
+  },
+  {
+    "objectID": "about.html#organizing-committee",
+    "href": "about.html#organizing-committee",
+    "title": "About Us",
+    "section": "",
+    "text": "### Prof. Elizabeth Johnson Chair\nProfessor of [Field] at University Name email@example.com\n\n\n ### Dr. Michael Wong Program Chair\nDirector of Research at Institute Name email@example.com\n\n\n ### Dr. Sarah Patel Local Arrangements\nAssociate Professor at University Name email@example.com\n\n\n\n\n ### Prof. Carlos Rodriguez Publications Chair\nProfessor at University Name email@example.com\n\n\n ### Dr. Lisa Chen Sponsorship Chair\nSenior Researcher at Company Name email@example.com\n\n\n ### Dr. Thomas Smith Student Programs\nProfessor at University Name email@example.com"
+  },
+  {
+    "objectID": "about.html#scientific-committee",
+    "href": "about.html#scientific-committee",
+    "title": "About Us",
+    "section": "",
+    "text": "Our Scientific Committee comprises leading experts from around the world who ensure the quality and relevance of our conference program:\n\nProf. Amanda Liu, University Name, Country\nDr. James Rodriguez, Research Institute, Country\nProf. Sophia Kim, University Name, Country\nDr. Daniel Johnson, Company Name, Country\nProf. Maria Gonzalez, University Name, Country\nDr. Robert Brown, Research Institute, Country\nProf. Laura Williams, University Name, Country\nDr. David Lee, Company Name, Country\nProf. Elena Petrov, University Name, Country\nDr. John Adams, Research Institute, Country\nProf. Naomi Torres, University Name, Country\nDr. Michael Wilson, Company Name, Country"
+  },
+  {
+    "objectID": "about.html#our-values",
+    "href": "about.html#our-values",
+    "title": "About Us",
+    "section": "",
+    "text": "Excellence: Promoting the highest standards of scientific research and discourse\nInclusivity: Creating a welcoming environment for participants from diverse backgrounds\nInnovation: Encouraging novel ideas and approaches that advance our field\nCollaboration: Fostering connections and partnerships across institutions and disciplines\nImpact: Supporting research that addresses real-world challenges and creates positive change"
+  },
+  {
+    "objectID": "about.html#supporting-organizations",
+    "href": "about.html#supporting-organizations",
+    "title": "About Us",
+    "section": "",
+    "text": "Our conference is organized in collaboration with:\n\n\n University Name\n\n\n Professional Society\n\n\n Research Institute"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SAERD25",
+    "section": "",
+    "text": "Date: October 30-31, 2025\nLocation: Paññāsāstra University of Cambodia, Siem Reap (PUCSR), Siem Reap, Cambodia\nJoin us for the premier conference in [field/industry], bringing together leading researchers, practitioners, and industry experts to explore cutting-edge developments and future directions in [specific area].\n\n\nThis year’s theme focuses on [brief description of theme]. We invite participants from around the world to engage in discussions, share insights, and collaborate on addressing the challenges and opportunities in our field.\nRegister Now\n\n\n\n\n\n\nAbstract Submission: March 15, 2025\nEarly Bird Registration: May 1, 2025 Regular Registration: June 30, 2025\nConference Dates: July 15-17, 2025"
+  },
+  {
+    "objectID": "index.html#theme-conference-theme",
+    "href": "index.html#theme-conference-theme",
+    "title": "SAERD25",
+    "section": "",
+    "text": "This year’s theme focuses on [brief description of theme]. We invite participants from around the world to engage in discussions, share insights, and collaborate on addressing the challenges and opportunities in our field.\nRegister Now"
+  },
+  {
+    "objectID": "index.html#important-dates",
+    "href": "index.html#important-dates",
+    "title": "SAERD25",
+    "section": "",
+    "text": "Abstract Submission: March 15, 2025\nEarly Bird Registration: May 1, 2025 Regular Registration: June 30, 2025\nConference Dates: July 15-17, 2025"
+  },
+  {
+    "objectID": "index.html#keynote-speakers",
+    "href": "index.html#keynote-speakers",
+    "title": "SAERD25",
+    "section": "Keynote Speakers",
+    "text": "Keynote Speakers\n\n\n ### Prof. Sovannroeun Samreth Professor, Saitama University, Japan\n\n\n ### Prof. Phanith Chou Associate Professor of Environmental Economics, Royal University of Phnom Penh, Cambodia\n\n\n ### Prof. Maria Garcia Director, Center for Advanced Research\n\n\n ### Dr. David Chen Principal Researcher, Tech Corporation\n\n\nView All Speakers"
+  },
+  {
+    "objectID": "index.html#conference-highlights",
+    "href": "index.html#conference-highlights",
+    "title": "SAERD25",
+    "section": "Conference Highlights",
+    "text": "Conference Highlights\n\n3 Days of engaging sessions and workshops\n4 Keynote presentations by leaders in the field\n20+ Parallel sessions covering diverse topics\nNetworking opportunities with peers and experts\nPoster Session showcasing innovative research\nConference Dinner at a premier venue"
+  },
+  {
+    "objectID": "index.html#conference-details",
+    "href": "index.html#conference-details",
+    "title": "SAERD25",
+    "section": "Conference Details",
+    "text": "Conference Details\nDate: July 15-17, 2025\nLocation: Conference Center, University Name\nRegistration: Register Here"
+  },
+  {
+    "objectID": "index.html#keynote-speakers-1",
+    "href": "index.html#keynote-speakers-1",
+    "title": "SAERD25",
+    "section": "Keynote Speakers",
+    "text": "Keynote Speakers\n\n\nDr. Jane Smith\n\nProfessor, University of Science\nDr. Smith is renowned for her groundbreaking work in [research area]. With over 100 publications and multiple patents, she has revolutionized how we understand [specific topic]. Her recent book “[Book Title]” has been acclaimed as a seminal text in the field.\nView Profile\n\n\nDr. Robert Johnson\n\nChief Scientist, Research Institute\nDr. Johnson leads the [Department Name] at Research Institute, focusing on [research focus]. His team has developed several innovative technologies that have been implemented in [industry/field]. He has been recognized with the [Award Name] for his contributions.\nView Profile\n\n\n\n\nProf. Maria Garcia\n\nDirector, Center for Advanced Research\nProf. Garcia has pioneered new methodologies in [research area], leading to significant advancements in [field]. She serves on the editorial boards of several prestigious journals and has chaired numerous international conferences.\nView Profile\n\n\nDr. David Chen\n\nPrincipal Researcher, Tech Corporation\nWith a background spanning both academia and industry, Dr. Chen brings unique insights to [research area]. His work bridges theoretical foundations with practical applications, resulting in [notable achievements].\nView Profile"
+  },
+  {
+    "objectID": "index.html#conference-program",
+    "href": "index.html#conference-program",
+    "title": "SAERD25",
+    "section": "Conference Program",
+    "text": "Conference Program\n\nDay 1: July 15, 2025\n\n\n\n\n\n\n\n\nTime\nEvent\nLocation\n\n\n\n\n8:00 - 9:00\nRegistration & Breakfast\nMain Lobby\n\n\n9:00 - 9:30\nOpening Remarks\nAuditorium\n\n\n9:30 - 10:30\nKeynote: Dr. Jane Smith\nAuditorium\n\n\n10:30 - 11:00\nCoffee Break\nFoyer\n\n\n11:00 - 12:30\nPanel: Future Directions in [Research Area]\nAuditorium\n\n\n12:30 - 14:00\nLunch\nDining Hall\n\n\n14:00 - 15:30\nParallel Sessions A\nRooms 101-104\n\n\n15:30 - 16:00\nCoffee Break\nFoyer\n\n\n16:00 - 17:30\nParallel Sessions B\nRooms 101-104\n\n\n18:00 - 20:00\nWelcome Reception\nRooftop Garden\n\n\n\n\n\nDay 2: July 16, 2025\n\n\n\n\n\n\n\n\nTime\nEvent\nLocation\n\n\n\n\n8:30 - 9:00\nBreakfast\nMain Lobby\n\n\n9:00 - 10:00\nKeynote: Prof. Maria Garcia\nAuditorium\n\n\n10:00 - 10:30\nCoffee Break\nFoyer\n\n\n10:30 - 12:00\nParallel Sessions C\nRooms 101-104\n\n\n12:00 - 13:30\nLunch & Poster Session\nGrand Hall\n\n\n13:30 - 15:00\nWorkshop: [Workshop Title]\nRoom 201\n\n\n15:00 - 15:30\nCoffee Break\nFoyer\n\n\n15:30 - 17:00\nParallel Sessions D\nRooms 101-104\n\n\n19:00 - 22:00\nConference Dinner\nCity Restaurant\n\n\n\n\n\nDay 3: July 17, 2025\n\n\n\n\n\n\n\n\nTime\nEvent\nLocation\n\n\n\n\n8:30 - 9:00\nBreakfast\nMain Lobby\n\n\n9:00 - 10:00\nKeynote: Dr. Robert Johnson\nAuditorium\n\n\n10:00 - 10:30\nCoffee Break\nFoyer\n\n\n10:30 - 12:00\nParallel Sessions E\nRooms 101-104\n\n\n12:00 - 13:30\nLunch\nDining Hall\n\n\n13:30 - 15:00\nKeynote: Dr. David Chen\nAuditorium\n\n\n15:00 - 15:30\nCoffee Break\nFoyer\n\n\n15:30 - 16:30\nPanel: Industry-Academia Collaboration\nAuditorium\n\n\n16:30 - 17:00\nClosing Remarks & Awards\nAuditorium"
+  },
+  {
+    "objectID": "index.html#parallel-sessions",
+    "href": "index.html#parallel-sessions",
+    "title": "SAERD25",
+    "section": "Parallel Sessions",
+    "text": "Parallel Sessions\n\nSessions A (Day 1, 14:00 - 15:30)\n\nA1: [Topic] - Room 101\nA2: [Topic] - Room 102\nA3: [Topic] - Room 103\nA4: [Topic] - Room 104\n\n\n\nSessions B (Day 1, 16:00 - 17:30)\n\nB1: [Topic] - Room 101\nB2: [Topic] - Room 102\nB3: [Topic] - Room 103\nB4: [Topic] - Room 104\n\n\n\nSessions C (Day 2, 10:30 - 12:00)\n\nC1: [Topic] - Room 101\nC2: [Topic] - Room 102\nC3: [Topic] - Room 103\nC4: [Topic] - Room 104\n\n\n\nSessions D (Day 2, 15:30 - 17:00)\n\nD1: [Topic] - Room 101\nD2: [Topic] - Room 102\nD3: [Topic] - Room 103\nD4: [Topic] - Room 104\n\n\n\nSessions E (Day 3, 10:30 - 12:00)\n\nE1: [Topic] - Room 101\nE2: [Topic] - Room 102\nE3: [Topic] - Room 103\nE4: [Topic] - Room 104"
+  },
+  {
+    "objectID": "index.html#registration-information",
+    "href": "index.html#registration-information",
+    "title": "SAERD25",
+    "section": "Registration Information",
+    "text": "Registration Information\n\n\n\nPackage\nEarly Bird (Until May 15)\nRegular\n\n\n\n\nStudent\n$150\n$200\n\n\nAcademic\n$300\n$350\n\n\nIndustry\n$450\n$500\n\n\n\nRegistration includes: Access to all sessions, conference materials, lunch and refreshments, welcome reception, and conference dinner.\nRegister Now"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "SAERD25",
+    "section": "Contact",
+    "text": "Contact\nFor inquiries about the conference, please contact us at conference-email@example.com."
+  },
+  {
+    "objectID": "index.html#sponsors",
+    "href": "index.html#sponsors",
+    "title": "SAERD25",
+    "section": "Sponsors",
+    "text": "Sponsors\n\nBecome a Sponsor"
+  },
+  {
+    "objectID": "index.html#latest-updates",
+    "href": "index.html#latest-updates",
+    "title": "SAERD25",
+    "section": "Latest Updates",
+    "text": "Latest Updates\n\nApril 1, 2025: Abstract submission deadline extended to March 15\nMarch 15, 2025: Registration now open\nMarch 1, 2025: Call for papers announced\nFebruary 15, 2025: Conference dates confirmed\n\nSubscribe to Newsletter"
+  }
+]
