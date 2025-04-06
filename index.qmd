@@ -1,36 +1,46 @@
 ---
-title: "SAERD25"
+title: "3rd Southeast Asia Economic Research and Development Conference"
 ---
-
-:::: {.grid}
-
-::: {.g-col-12 .g-col-md-8}
-# Welcome to the 3rd Southeast Asia Economic Research and Development Conference
 
 **Date: October 30-31, 2025**  
 **Location: Paññāsāstra University of Cambodia, Siem Reap (PUCSR), Siem Reap, Cambodia**
 
-Join us for the premier conference in [field/industry], bringing together leading researchers, practitioners, and industry experts to explore cutting-edge developments and future directions in [specific area].
+Join us for the premier conference in economics, bringing together leading researchers, practitioners, and industry experts to explore cutting-edge developments and future directions in Southeast Asia.
 
-## Theme: "[Conference Theme]"
+[Submit your abstract here](ysiproject.org/puc){.btn .btn-primary .mt-3}
 
-This year's theme focuses on [brief description of theme]. We invite participants from around the world to engage in discussions, share insights, and collaborate on addressing the challenges and opportunities in our field.
 
-[Register Now](#){.btn .btn-primary .mt-3}
-:::
 
-::: {.g-col-12 .g-col-md-4}
-![](conference-banner.jpg){.img-fluid .rounded}
 
-## Important Dates
+### Important Dates
 
-**Abstract Submission:** March 15, 2025  
-**Early Bird Registration:** May 1, 2025
-**Regular Registration:** June 30, 2025  
-**Conference Dates:** July 15-17, 2025
-:::
+- Deadline for abstract submission: **July 15, 2025**.
+- Notifications of acceptance will be sent out in **the fourth week of July**.
+- Deadline for submission of full papers: **September 30, 2025**.
+- Conference dates: **October 30-31, 2025**.
 
-::::
+
+Southeast Asia stands at the crossroads of dynamic economic progress and significant socio-economic challenges. As one of the most vibrant and diverse regions globally, it has achieved remarkable strides in economic growth, regional integration, and poverty reduction. However, this growth has been accompanied by rising inequality, environmental degradation, technological disruptions, and increasing vulnerabilities to global uncertainties and climate change. This raises critical questions: How can Southeast Asia balance its rapid economic growth with inequality, ecological change, and digital transformation? Furthermore, how does research on Southeast Asia help us to understand the socio-economic rules that govern the world?
+Addressing these polycrises requires innovative, multidimensional solutions that transcend traditional economic paradigms. The 3rd Southeast Asia Economic Research and Development Conference serves as a platform for young scholars, researchers, policymakers, and practitioners to convene, exchange perspectives, and propose actionable solutions tailored to the region’s unique context. 
+
+Adopting an interdisciplinary and pluralist approach, the conference aims to foster dialogue that integrates economic theory, empirical analysis, and practical policy interventions. By leveraging insights from various disciplines and methodologies, participants will contribute to a deeper understanding of the complex interactions shaping Southeast Asia's socio-economic landscape.
+
+The conference seeks to inspire bold and collaborative research that rethinks growth, sustainability, and equity within the region. The papers presented will not only enrich academic discourse but also provide a foundation for evidence-based policymaking to support inclusive and sustainable development in Southeast Asia. We welcome submissions that explore, but are not limited to, the following themes:
+
+## Suggested Contribution Topics
+- Economic growth, inequality, and inclusion
+- Development and sustenance of social protection and social security system
+- Health, and demographic transition
+- Urban and regional economics 
+- Sustainability, ecology, natural resource management and climate resilience
+- Food security and agrarian transformation
+- Digital transformation, automation,  and innovation
+- Regional integration and trade
+- Governance, institutions, and economic policy
+- Labour economics and gender
+- History of economic thought, economic history and path-dependency
+- Interdisciplinary and pluralist approaches in economic analysis
+
 
 ## Keynote Speakers
 
@@ -38,25 +48,29 @@ This year's theme focuses on [brief description of theme]. We invite participant
 
 ::: {.g-col-12 .g-col-md-3}
 ![](images/Samreth.jpeg){.speaker-img}
-### Prof. Sovannroeun Samreth
+**Prof. Sovannroeun Samreth**
+
 *Professor, Saitama University, Japan*
 :::
 
 ::: {.g-col-12 .g-col-md-3}
 ![](images/Chou.jpg){.speaker-img}
-### Prof. Phanith Chou 
+**Prof. Phanith Chou** 
+
 *Associate Professor of Environmental Economics, Royal University of Phnom Penh, Cambodia*
 :::
 
 ::: {.g-col-12 .g-col-md-3}
 ![](images/Rani.jpg){.speaker-img}
-### Prof. Maria Garcia
+**Prof. Maria Garcia**
+
 *Director, Center for Advanced Research*
 :::
 
 ::: {.g-col-12 .g-col-md-3}
 ![](images/dina.jpeg){.speaker-img}
-### Dr. David Chen
+**Dr. David Chen**
+
 *Principal Researcher, Tech Corporation*
 :::
 
@@ -73,143 +87,62 @@ This year's theme focuses on [brief description of theme]. We invite participant
 - **Poster Session** showcasing innovative research
 - **Conference Dinner** at a premier venue
 
-
-# Annual Research Conference 2025
-
-Join us for the Annual Research Conference 2025, bringing together leading researchers and practitioners in the field of [Your Field]. This year's theme is "[Conference Theme]" with a focus on innovative approaches and emerging trends.
-
-## Conference Details
-
-**Date:** July 15-17, 2025  
-**Location:** Conference Center, University Name  
-**Registration:** [Register Here](https://conference-registration-link.com)
-
-## Keynote Speakers
-
-:::: {.grid}
-::: {.g-col-12 .g-col-md-6}
-### Dr. Jane Smith
-![](speaker1.jpg){.speaker-img}
-
-**Professor, University of Science**
-
-Dr. Smith is renowned for her groundbreaking work in [research area]. With over 100 publications and multiple patents, she has revolutionized how we understand [specific topic]. Her recent book "[Book Title]" has been acclaimed as a seminal text in the field.
-
-[View Profile](https://example.com/janesmith)
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### Dr. Robert Johnson
-![](speaker2.jpg){.speaker-img}
-
-**Chief Scientist, Research Institute**
-
-Dr. Johnson leads the [Department Name] at Research Institute, focusing on [research focus]. His team has developed several innovative technologies that have been implemented in [industry/field]. He has been recognized with the [Award Name] for his contributions.
-
-[View Profile](https://example.com/robertjohnson)
-:::
-::::
-
-:::: {.grid}
-::: {.g-col-12 .g-col-md-6}
-### Prof. Maria Garcia
-![](speaker3.jpg){.speaker-img}
-
-**Director, Center for Advanced Research**
-
-Prof. Garcia has pioneered new methodologies in [research area], leading to significant advancements in [field]. She serves on the editorial boards of several prestigious journals and has chaired numerous international conferences.
-
-[View Profile](https://example.com/mariagarcia)
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### Dr. David Chen
-![](speaker4.jpg){.speaker-img}
-
-**Principal Researcher, Tech Corporation**
-
-With a background spanning both academia and industry, Dr. Chen brings unique insights to [research area]. His work bridges theoretical foundations with practical applications, resulting in [notable achievements].
-
-[View Profile](https://example.com/davidchen)
-:::
-::::
-
 ## Conference Program
 
 ### Day 1: July 15, 2025
 
 | Time          | Event                                         | Location       |
 |---------------|-----------------------------------------------|----------------|
-| 8:00 - 9:00   | Registration & Breakfast                      | Main Lobby     |
-| 9:00 - 9:30   | Opening Remarks                               | Auditorium     |
-| 9:30 - 10:30  | Keynote: Dr. Jane Smith                       | Auditorium     |
-| 10:30 - 11:00 | Coffee Break                                  | Foyer          |
-| 11:00 - 12:30 | Panel: Future Directions in [Research Area]   | Auditorium     |
-| 12:30 - 14:00 | Lunch                                         | Dining Hall    |
-| 14:00 - 15:30 | Parallel Sessions A                           | Rooms 101-104  |
-| 15:30 - 16:00 | Coffee Break                                  | Foyer          |
-| 16:00 - 17:30 | Parallel Sessions B                           | Rooms 101-104  |
-| 18:00 - 20:00 | Welcome Reception                             | Rooftop Garden |
+| 8:30 - 9:00   | Registration                                  | TBD            |
+| 9:00 - 10:00  | Parallel Sessions A                           | TBD            |
+| 10:00 - 10:30 | Coffee Break                                  | TBD            |
+| 10:30 - 11:00 | Welcoming Remark                              | TBD            |
+| 11:00 - 12:00 | Plenary A                                     | TBD            |
+| 12:00 - 13:00 | Lunch                                         | TBD            |
+| 13:00 - 14:00 | Parallel Sessions B                           | TBD            |
+| 14:00 - 14:30 | Coffee Break                                  | TBD            |
+| 14:30 - 16:00 | Panel Session A                               | TBD            |
+| 16:00 - 17:00 | Training Workshop                             | TBD            |
+| 19:00 - 21:00 | Welcome Reception                             | TBD            |
 
 ### Day 2: July 16, 2025
 
-| Time          | Event                                         | Location       |
-|---------------|-----------------------------------------------|----------------|
-| 8:30 - 9:00   | Breakfast                                     | Main Lobby     |
-| 9:00 - 10:00  | Keynote: Prof. Maria Garcia                   | Auditorium     |
-| 10:00 - 10:30 | Coffee Break                                  | Foyer          |
-| 10:30 - 12:00 | Parallel Sessions C                           | Rooms 101-104  |
-| 12:00 - 13:30 | Lunch & Poster Session                        | Grand Hall     |
-| 13:30 - 15:00 | Workshop: [Workshop Title]                    | Room 201       |
-| 15:00 - 15:30 | Coffee Break                                  | Foyer          |
-| 15:30 - 17:00 | Parallel Sessions D                           | Rooms 101-104  |
-| 19:00 - 22:00 | Conference Dinner                             | City Restaurant|
-
-### Day 3: July 17, 2025
 
 | Time          | Event                                         | Location       |
 |---------------|-----------------------------------------------|----------------|
-| 8:30 - 9:00   | Breakfast                                     | Main Lobby     |
-| 9:00 - 10:00  | Keynote: Dr. Robert Johnson                   | Auditorium     |
-| 10:00 - 10:30 | Coffee Break                                  | Foyer          |
-| 10:30 - 12:00 | Parallel Sessions E                           | Rooms 101-104  |
-| 12:00 - 13:30 | Lunch                                         | Dining Hall    |
-| 13:30 - 15:00 | Keynote: Dr. David Chen                       | Auditorium     |
-| 15:00 - 15:30 | Coffee Break                                  | Foyer          |
-| 15:30 - 16:30 | Panel: Industry-Academia Collaboration        | Auditorium     |
-| 16:30 - 17:00 | Closing Remarks & Awards                      | Auditorium     |
+| 9:00 - 10:00  | Parallel Sessions C                           | TBD            |
+| 10:00 - 10:30 | Coffee Break                                  | TBD            |
+| 10:00 - 12:00 | Panel Session B                               | TBD            |
+| 12:00 - 13:00 | Lunch                                         | TBD            |
+| 13:00 - 14:00 | Parallel Sessions D                           | TBD            |
+| 14:00 - 14:30 | Coffee Break                                  | TBD            |
+| 14:30 - 16:00 | Plenary B.                                    | TBD            |
+| 16:00 - 17:00 | Training Workshop                             | TBD            |
+| 19:00 - 22:00 | Conference Dinner                             | TBD            |
 
 ## Parallel Sessions
 
-### Sessions A (Day 1, 14:00 - 15:30)
-- **A1: [Topic]** - Room 101
-- **A2: [Topic]** - Room 102
-- **A3: [Topic]** - Room 103
-- **A4: [Topic]** - Room 104
+### Sessions A (Day 1, 9:00 - 10:00)
+- **A1: [Topic]** - Room TBD
+- **A2: [Topic]** - Room TBD
+- **A3: [Topic]** - Room TBD
 
-### Sessions B (Day 1, 16:00 - 17:30)
-- **B1: [Topic]** - Room 101
-- **B2: [Topic]** - Room 102
-- **B3: [Topic]** - Room 103
-- **B4: [Topic]** - Room 104
+### Sessions B (Day 1, 13:00 - 14:00)
+- **B1: [Topic]** - Room TBD
+- **B2: [Topic]** - Room TBD
+- **B3: [Topic]** - Room TBD
 
-### Sessions C (Day 2, 10:30 - 12:00)
-- **C1: [Topic]** - Room 101
-- **C2: [Topic]** - Room 102
-- **C3: [Topic]** - Room 103
-- **C4: [Topic]** - Room 104
+### Sessions C (Day 2, 9:00 - 10:00)
+- **C1: [Topic]** - Room TBD
+- **C2: [Topic]** - Room TBD
+- **C3: [Topic]** - Room TBD
 
-### Sessions D (Day 2, 15:30 - 17:00)
-- **D1: [Topic]** - Room 101
-- **D2: [Topic]** - Room 102
-- **D3: [Topic]** - Room 103
-- **D4: [Topic]** - Room 104
+### Sessions D (Day 2, 13:00 - 14:00)
+- **D1: [Topic]** - Room TBD
+- **D2: [Topic]** - Room TBD
+- **D3: [Topic]** - Room TBD
 
-### Sessions E (Day 3, 10:30 - 12:00)
-- **E1: [Topic]** - Room 101
-- **E2: [Topic]** - Room 102
-- **E3: [Topic]** - Room 103
-- **E4: [Topic]** - Room 104
+
 
 ## Registration Information
 
@@ -225,7 +158,7 @@ With a background spanning both academia and industry, Dr. Chen brings unique in
 
 ## Contact
 
-For inquiries about the conference, please contact us at [conference-email@example.com](mailto:conference-email@example.com).
+For inquiries about the conference, please contact us at [saerdconf@gmail.com](mailto:saerdconf@gmail.com).
 
 
 ## Sponsors
@@ -233,11 +166,5 @@ For inquiries about the conference, please contact us at [conference-email@examp
 
 [Become a Sponsor](contact.qmd)
 
-## Latest Updates
-
-- **April 1, 2025:** Abstract submission deadline extended to March 15
-- **March 15, 2025:** Registration now open
-- **March 1, 2025:** Call for papers announced
-- **February 15, 2025:** Conference dates confirmed
 
 [Subscribe to Newsletter](contact.qmd)
