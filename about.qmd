@@ -1,0 +1,121 @@
+---
+title: "About Us"
+---
+
+# About the Conference
+
+## Our Mission
+
+The Conference Name is dedicated to advancing knowledge and innovation in the field of [specific field]. We strive to create a platform for researchers, practitioners, and industry experts to exchange ideas, share discoveries, and build collaborations that drive progress in our field.
+
+## Conference History
+
+Established in 2018, our conference has grown from a small regional meeting with 120 participants to an international event drawing over 450 attendees from 35+ countries. Throughout our history, we have maintained a commitment to scientific excellence, inclusivity, and fostering connections across disciplines.
+
+## Organizing Committee
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+![](images/dina.jpeg){.committee-img}
+### Prof. Elizabeth Johnson
+**Chair**
+
+Professor of [Field] at University Name
+[email@example.com](mailto:email@example.com)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](images/Samreth.jpeg){.committee-img}
+### Dr. Michael Wong
+**Program Chair**
+
+Director of Research at Institute Name
+[email@example.com](mailto:email@example.com)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](images/Chou.jpg){.committee-img}
+### Dr. Sarah Patel
+**Local Arrangements**
+
+Associate Professor at University Name
+[email@example.com](mailto:email@example.com)
+:::
+
+::::
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+![](committee4.jpg){.committee-img}
+### Prof. Carlos Rodriguez
+**Publications Chair**
+
+Professor at University Name
+[email@example.com](mailto:email@example.com)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](committee5.jpg){.committee-img}
+### Dr. Lisa Chen
+**Sponsorship Chair**
+
+Senior Researcher at Company Name
+[email@example.com](mailto:email@example.com)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](committee6.jpg){.committee-img}
+### Dr. Thomas Smith
+**Student Programs**
+
+Professor at University Name
+[email@example.com](mailto:email@example.com)
+:::
+
+::::
+
+## Scientific Committee
+
+Our Scientific Committee comprises leading experts from around the world who ensure the quality and relevance of our conference program:
+
+- Prof. Amanda Liu, University Name, Country
+- Dr. James Rodriguez, Research Institute, Country
+- Prof. Sophia Kim, University Name, Country
+- Dr. Daniel Johnson, Company Name, Country
+- Prof. Maria Gonzalez, University Name, Country
+- Dr. Robert Brown, Research Institute, Country
+- Prof. Laura Williams, University Name, Country
+- Dr. David Lee, Company Name, Country
+- Prof. Elena Petrov, University Name, Country
+- Dr. John Adams, Research Institute, Country
+- Prof. Naomi Torres, University Name, Country
+- Dr. Michael Wilson, Company Name, Country
+
+## Our Values
+
+- **Excellence**: Promoting the highest standards of scientific research and discourse
+- **Inclusivity**: Creating a welcoming environment for participants from diverse backgrounds
+- **Innovation**: Encouraging novel ideas and approaches that advance our field
+- **Collaboration**: Fostering connections and partnerships across institutions and disciplines
+- **Impact**: Supporting research that addresses real-world challenges and creates positive change
+
+## Supporting Organizations
+
+Our conference is organized in collaboration with:
+
+:::: {.grid}
+::: {.g-col-4 .text-center}
+![](images/dina.jpeg){.org-logo}
+**University Name**
+:::
+::: {.g-col-4 .text-center}
+![](images/Samreth.jpeg){.org-logo}
+**Professional Society**
+:::
+::: {.g-col-4 .text-center}
+![](org3.jpg){.org-logo}
+**Research Institute**
+:::
+::::

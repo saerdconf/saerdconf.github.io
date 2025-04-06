@@ -1,0 +1,134 @@
+/*-- scss:rules --*/
+
+/* Base styles */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.6;
+  background-color: #0E171E;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #fffbf2;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+/* Links styling */
+a {
+  color: #D62F0C;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+/* Button styling */
+.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+/* Footer styling */
+.footer-text {
+  font-size: 0.9rem;
+  color: #2e2d29;
+}
+/* Custom navbar styling */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Conference styling */
+/* Speaker profiles */
+.speaker-img {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+/* Committee member images */
+.committee-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+/* Conference tables */
+table {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #F3EFE5;
+}
+table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #F3EFE5;
+  background-color: #F3EFE5;
+}
+table tbody tr:nth-of-type(odd) {
+  background-color: #F3EFE5
+}
+/* Program sessions */
+.session-block {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+.session-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+/* Sponsor and organization logos */
+.sponsor-logo, .org-logo {
+  max-width: 150px;
+  max-height: 100px;
+  margin-bottom: 1rem;
+}
+/* Contact form styling */
+.contact-form, .newsletter-form {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.form-control {
+  margin-bottom: 1rem;
+}
+.venue-map {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+/* Social media links */
+.social-links {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.social-links a {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+/* Past editions styling */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/* Latest updates section */
+.updates-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+}

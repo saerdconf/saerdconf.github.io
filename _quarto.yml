@@ -1,0 +1,39 @@
+# Project configuration
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!README.md"
+
+# Website configuration
+website:
+  title: "SAERD25"
+  navbar: 
+    pinned: true
+    background: dark
+    search: true
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Past Editions
+        href: past-editions.qmd
+      - text: About Us
+        href: about.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer:
+    center: |
+      <span class="footer-text">© SAERD 2025</span>
+    right: |
+      <span class="footer-text">Made with [Quarto](https://quarto.org)</span>
+
+# Format configuration
+format:
+  html:
+    theme:
+      light: [cosmo, styles_light.scss]
+      dark: [cosmo, styles_dark.scss]
+    toc: true
+    page-layout: full
+   

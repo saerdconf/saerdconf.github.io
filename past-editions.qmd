@@ -1,0 +1,114 @@
+---
+title: "Past Editions"
+---
+
+# Previous Conferences
+
+Our conference has a rich history of bringing together the brightest minds in [field/industry]. Below you can explore our past editions, including highlights, notable speakers, and published proceedings.
+
+## 2024 Edition
+
+**Theme:** "[Previous Year's Theme]"  
+**Date:** July 10-12, 2024  
+**Location:** University of Science, City Name  
+**Participants:** 450+ attendees from 35 countries
+
+### Highlights
+
+- Keynote by Nobel Laureate Dr. [Name]
+- Special industry panel on [Topic]
+- Introduction of [New Initiative/Format]
+- Record number of abstract submissions
+
+### Conference Proceedings
+
+The proceedings from the 2024 conference are available in the [Journal Name] special issue and can be accessed [here](#).
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+![](past-conf-2024-1.jpg){.img-fluid .rounded .mb-3}
+:::
+::: {.g-col-12 .g-col-md-6}
+![](past-conf-2024-2.jpg){.img-fluid .rounded .mb-3}
+:::
+::::
+
+## 2023 Edition
+
+**Theme:** "[Previous Year's Theme]"  
+**Date:** July 8-10, 2023  
+**Location:** Metropolitan Convention Center, Different City  
+**Participants:** 380+ attendees from 30 countries
+
+### Highlights
+
+- Launch of the [Name] Award for Excellence
+- Virtual participation options introduced
+- Workshop on [Topic] with industry leaders
+- Collaboration agreement with [Partner Organization]
+
+### Conference Proceedings
+
+The proceedings from the 2023 conference are available in the [Journal Name] special issue and can be accessed [here](#).
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+![](past-conf-2023-1.jpg){.img-fluid .rounded .mb-3}
+:::
+::: {.g-col-12 .g-col-md-6}
+![](past-conf-2023-2.jpg){.img-fluid .rounded .mb-3}
+:::
+::::
+
+## 2022 Edition
+
+**Theme:** "[Previous Year's Theme]"  
+**Date:** July 12-14, 2022  
+**Location:** Research Institute, Another City  
+**Participants:** 320+ attendees from 28 countries
+
+### Highlights
+
+- First hybrid conference format
+- Focus on post-pandemic challenges in the field
+- Introduction of poster session
+- Special recognition for early career researchers
+
+### Conference Proceedings
+
+The proceedings from the 2022 conference are available in the [Journal Name] special issue and can be accessed [here](#).
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+![](past-conf-2022-1.jpg){.img-fluid .rounded .mb-3}
+:::
+::: {.g-col-12 .g-col-md-6}
+![](past-conf-2022-2.jpg){.img-fluid .rounded .mb-3}
+:::
+::::
+
+## Earlier Editions
+
+### 2021 Edition
+**Theme:** "[Theme]"  
+**Location:** Virtual Conference  
+[View Details](#)
+
+### 2020 Edition
+**Theme:** "[Theme]"  
+**Location:** Virtual Conference  
+[View Details](#)
+
+### 2019 Edition
+**Theme:** "[Theme]"  
+**Location:** University Name, City  
+[View Details](#)
+
+### 2018 Edition
+**Theme:** "[Theme]"  
+**Location:** Conference Center, City  
+[View Details](#)
+
+## Photo Gallery
+
+[View our complete conference photo gallery](#)
