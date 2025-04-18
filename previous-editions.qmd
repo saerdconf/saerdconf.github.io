@@ -39,4 +39,4 @@ The program for the 2023 conference is available as a PDF file [here](files/agen
 
 ## Photo Gallery
 
-[View our complete conference photo gallery](#)
+[View our complete conference photo gallery](gallery.qmd)

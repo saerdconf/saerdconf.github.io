@@ -1,0 +1,32 @@
+---
+title: "Gallery of Previous Editions"
+---
+
+
+
+:::{.columns}
+::: {.column style="padding-right: 1rem;"}
+![](images/IMG_1755.JPG){.lightbox group="row4"}
+:::
+
+::: {.column style="padding-right: 1rem;"}
+![](images/IMG_1845.JPG){.lightbox group="row4"}
+:::
+
+::: {.column style="padding-right: 1rem;"}
+![](images/IMG_1873.JPG){.lightbox group="row4"}
+:::
+
+::: {.column style="padding-right: 1rem;"}
+![](images/IMG_1925.JPG){.lightbox group="row4"}
+:::
+
+::: {.column style="padding-right: 1rem;"}
+![](images/IMG_2154.JPG){.lightbox group="row4"}
+:::
+
+::: {.column style="padding-right: 1rem;"}
+![](images/IMG_2355.JPG){.lightbox group="row4"}
+:::
+
+:::

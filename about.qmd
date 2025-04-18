@@ -15,65 +15,43 @@ Established in 2023, our conference has grown from a small regional meeting with
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](){.committee-img}
-
-#### Kosal Nith
+##### Kosal Nith
 **Conference Coordinator**
 
-Young Scholars Initiative
 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](){.committee-img}
-
-#### Sattwick Dey Biswas
+##### Sattwick Dey Biswas
 **Program Lead**
 
-Young Scholars Initiative
 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](){.committee-img}
+##### Sovannroeun Samreth
+**Program Lead**
 
-#### Sokhimmarya Chea
+:::
+
+
+::: {.g-col-12 .g-col-md-4}
+##### Sokhimmarya Chea
 **Logistics Lead**
 
-Royal University of Law and Economics
-
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](){.committee-img}
-
-#### Sreymeng Sros
+##### Sreymeng Sros
 **Logistics Lead**
 
-Royal University of Law and Economics
-
 :::
 
-
 ::: {.g-col-12 .g-col-md-4}
-![](committee4.jpg){.committee-img}
-
-#### Sinoun Him
+##### Sinoun Him
 **Communication Lead**
-
-Ministry of Post and Telecommunication
-
 :::
 
-::: {.g-col-12 .g-col-md-4}
-![](committee5.jpg){.committee-img}
-
-#### Sivly Houy
-**Finance Lead**
-
-Cambodia Development Resource Institute
-
-:::
 ::::
 
 
@@ -98,28 +76,7 @@ Our Scientific Committee comprises leading experts from around the world who ens
 - Kosal Nith (Young Scholars Initiative, Cambodia)
 
 ## Our Values
-
-- **Excellence**: Promoting the highest standards of scientific research and discourse
 - **Inclusivity**: Creating a welcoming environment for participants from diverse backgrounds
 - **Innovation**: Encouraging novel ideas and approaches that advance our field
 - **Collaboration**: Fostering connections and partnerships across institutions and disciplines
-- **Impact**: Supporting research that addresses real-world challenges and creates positive change
 
-## Supporting Organizations
-
-Our conference is organized in collaboration with:
-
-:::: {.grid}
-::: {.g-col-4 .text-center}
-![](){.org-logo}
-**University Name**
-:::
-::: {.g-col-4 .text-center}
-![](){.org-logo}
-**Professional Society**
-:::
-::: {.g-col-4 .text-center}
-![](org3.jpg){.org-logo}
-**Research Institute**
-:::
-::::

@@ -7,7 +7,7 @@ title: "3rd Southeast Asia Economic Research and Development Conference"
 
 Join us for the premier conference in economics, bringing together leading researchers, practitioners, and industry experts to explore cutting-edge developments and future directions in Southeast Asia.
 
-[Submit your abstract here](ysiproject.org/puc){.btn .btn-primary .mt-3}
+[Submit your abstract here](https://fs8.formsite.com/CNZLjX/puc/index){.btn .btn-primary .mt-3}
 
 
 
@@ -42,12 +42,12 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 - Interdisciplinary and pluralist approaches in economic analysis
 
 
-## Keynote Speakers
+## Confrimed Keynote Speakers
 
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-3}
-![](images/Samreth.jpeg){.speaker-img}
+![](images/Samreth.jpg){.speaker-img}
 **Prof. Sovannroeun Samreth**
 
 *Professor, Saitama University, Japan*
@@ -61,35 +61,28 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 :::
 
 ::: {.g-col-12 .g-col-md-3}
-![](images/Rani.jpg){.speaker-img}
-**Prof. Maria Garcia**
 
-*Director, Center for Advanced Research*
 :::
 
 ::: {.g-col-12 .g-col-md-3}
-![](images/dina.jpeg){.speaker-img}
-**Dr. David Chen**
 
-*Principal Researcher, Tech Corporation*
 :::
 
 ::::
 
-[View All Speakers](conference.qmd#keynote-speakers)
+[More speakers to be updated]()
 
 ## Conference Highlights
 
-- **3 Days** of engaging sessions and workshops
-- **4 Keynote** presentations by leaders in the field
+- **2 Days** of engaging sessions and workshops
+- **4+ Keynote** presentations by experts in the field
 - **20+ Parallel** sessions covering diverse topics
 - **Networking** opportunities with peers and experts
-- **Poster Session** showcasing innovative research
 - **Conference Dinner** at a premier venue
 
 ## Conference Program
 
-### Day 1: July 15, 2025
+### Day 1: October 30, 2025
 
 | Time          | Event                                         | Location       |
 |---------------|-----------------------------------------------|----------------|
@@ -105,7 +98,7 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 | 16:00 - 17:00 | Training Workshop                             | TBD            |
 | 19:00 - 21:00 | Welcome Reception                             | TBD            |
 
-### Day 2: July 16, 2025
+### Day 2: October 31, 2025
 
 
 | Time          | Event                                         | Location       |
@@ -146,25 +139,16 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 
 ## Registration Information
 
-| Package | Early Bird (Until May 15) | Regular |
-|---------|---------------------------|---------|
-| Student | $150 | $200 |
-| Academic | $300 | $350 |
-| Industry | $450 | $500 |
-
-**Registration includes:** Access to all sessions, conference materials, lunch and refreshments, welcome reception, and conference dinner.
-
-[Register Now](https://conference-registration-link.com)
+[Registeration information to be updated]()
 
 ## Contact
 
 For inquiries about the conference, please contact us at [saerdconf@gmail.com](mailto:saerdconf@gmail.com).
 
 
-## Sponsors
+## Supported by
 ![](images/saerd25_logo.png){width=100%}
 
 [Become a Sponsor](contact.qmd)
 
-
-[Subscribe to Newsletter](contact.qmd)
+We welcome collaboration to support young scholars in the region with travel-related expenses. If you are interested in supporting them, please reach out to us using the contact information above.
