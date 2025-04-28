@@ -33,7 +33,11 @@ Established in 2023, our conference has grown from a small regional meeting with
 **Program Lead**
 
 :::
+::: {.g-col-12 .g-col-md-4}
+##### Jakkrya Sey
+**Program Lead**
 
+:::
 
 ::: {.g-col-12 .g-col-md-4}
 ##### Sokhimmarya Chea
@@ -71,6 +75,7 @@ Our Scientific Committee comprises leading experts from around the world who ens
 - Chanrith Ngin (Cambodia Development Resource Institute, Cambodia)
 - Daniel Yonto (Xi’an Jiaotong-Liverpool University, China)
 - Sattwick Dey Biswas (Young Scholars Initiative, India)
+- Rada Khoy (United Nations Development Programme - UNDP, Cambodia)
 - Kirirom Cheav (National University of Management, Cambodia)
 - Sophat Phon (National Bank of Cambodia and Cambodia Econometric Association, Cambodia)
 - Kosal Nith (Young Scholars Initiative, Cambodia)

@@ -42,7 +42,7 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 - Interdisciplinary and pluralist approaches in economic analysis
 
 
-## Confrimed Keynote Speakers
+## Confirmed Keynote Speakers
 
 :::: {.grid}
 
@@ -61,7 +61,10 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 :::
 
 ::: {.g-col-12 .g-col-md-3}
+![](images/Ratha.jpg){.speaker-img}
+**Dr. Ratha Chiv** 
 
+*Executive Vice Chancellor, Paññāsāstra University of Cambodia, Siem Reap Campus, Cambodia *
 :::
 
 ::: {.g-col-12 .g-col-md-3}
