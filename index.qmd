@@ -68,7 +68,10 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 :::
 
 ::: {.g-col-12 .g-col-md-3}
+![](images/Daniel.jpg){.speaker-img}
+**Dr. Daniel Yonto** 
 
+*Assistant Professor, Xi’an Jiaotong-Liverpool University, China *
 :::
 
 ::::
