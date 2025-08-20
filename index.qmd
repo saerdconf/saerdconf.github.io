@@ -7,9 +7,9 @@ title: "3rd Southeast Asia Economic Research and Development Conference"
 
 Join us for the premier conference in economics, bringing together leading researchers, practitioners, and industry experts to explore cutting-edge developments and future directions in Southeast Asia.
 
-[Submit your abstract here](https://fs8.formsite.com/CNZLjX/puc/index){.btn .btn-primary .mt-3}
+### Latest Announcements
 
-
+We would like to inform participants that the announcement of travel stipends and accommodation support has been delayed due to logistical issues on our end. Selected applicants and those not selected for these grants will be notified via email soon. Once the grants are announced, participants will be able to register to attend the conference. We appreciate your patience and understanding.
 
 
 ### Important Dates
@@ -18,6 +18,8 @@ Join us for the premier conference in economics, bringing together leading resea
 - Notifications of acceptance will be sent out in **the fourth week of July**.
 - Deadline for submission of full papers: **September 30, 2025**.
 - Conference dates: **October 30-31, 2025**.
+
+[Submit your abstract here](https://fs8.formsite.com/CNZLjX/puc/index){.btn .btn-primary .mt-3}
 
 
 Southeast Asia stands at the crossroads of dynamic economic progress and significant socio-economic challenges. As one of the most vibrant and diverse regions globally, it has achieved remarkable strides in economic growth, regional integration, and poverty reduction. However, this growth has been accompanied by rising inequality, environmental degradation, technological disruptions, and increasing vulnerabilities to global uncertainties and climate change. This raises critical questions: How can Southeast Asia balance its rapid economic growth with inequality, ecological change, and digital transformation? Furthermore, how does research on Southeast Asia help us to understand the socio-economic rules that govern the world?
@@ -73,6 +75,44 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 
 *Assistant Professor, Xi’an Jiaotong-Liverpool University, China *
 :::
+
+
+::: {.g-col-12 .g-col-md-3}
+![](images/Olivier.jpg){.speaker-img}
+**Prof. Olivier Bargain** 
+
+*Professor of Economics, Bordeaux University, France *
+:::
+
+::: {.g-col-12 .g-col-md-3}
+![](images/Maria.jpg){.speaker-img}
+**Dr. Maria C. Lo Bue** 
+
+*Assistant professor, University of Trieste, Italy*
+:::
+
+
+::: {.g-col-12 .g-col-md-3}
+![](images/Ahmad.jpg){.speaker-img}
+**Mr. Shakeel Ahmad** 
+
+*Deputy Resident Representative, UNDP Cambodia*
+:::
+
+::: {.g-col-12 .g-col-md-3}
+![](images/Rada.jpg){.speaker-img}
+**Dr. Rada Khoy** 
+
+*Economist, UNDP Cambodia*
+:::
+
+::: {.g-col-12 .g-col-md-3}
+![](images/Theara.jpg){.speaker-img}
+**Mr. Theara Khoun** 
+
+*Socio-economic Policy Specialist, UNDP Cambodia*
+:::
+
 
 ::::
 
@@ -145,7 +185,35 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 
 ## Registration Information
 
-[Registeration information to be updated]()
+General participants are welcome to attend SAERD25. You can register to attend the conference [here](https://forms.gle/c12sMvvrr4mT4coL9).
+
+Participation is free of charge, but registration is required to secure your place.
+
+## Travel and Accommodation
+
+We are delighted to welcome you to SAERD25 in Siem Reap, Cambodia. Below you will find practical information to help plan your stay.
+
+### Travel to Siem Reap
+
+- Airport: Siem Reap–Angkor International Airport (SAI) is the main gateway to Siem Reap, with direct flights from Bangkok, Singapore, Kuala Lumpur, Ho Chi Minh City, and other regional hubs.
+- From the Airport to the City:
+  - Taxi: USD 15–20 (30–40 minutes to the city centre)
+  - Hotel pick-up: Many hotels provide transfer services if arranged in advance.
+
+### Transportation in Siem Reap
+
+- Tuk-tuks: The most common way to get around, usually USD 2–5 per trip within the city.
+- Ride-hailing apps: PassApp and Grab are widely used for tuk-tuks and cars.
+- To the Conference Venue (PUC Siem Reap Campus): About 10–15 minutes by tuk-tuk from most central hotels.
+
+### Accommodation
+
+Siem Reap offers a wide variety of accommodation options for every budget. We encourage participants to book early as October is a busy season for tourists.
+
+### Additional Tips
+- Visa: Most nationalities can obtain a tourist visa online - [e-visa](https://www.evisa.gov.kh) or on arrival. Check requirements before travelling.
+- Currency: US dollars are widely accepted; Cambodian riel is used for small transactions.
+- Weather in October: Warm (25–32°C) with occasional rain showers—light clothing and an umbrella are recommended.
 
 ## Contact
 

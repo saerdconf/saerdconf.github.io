@@ -4,7 +4,7 @@ title: "About Us"
 
 ## Our Mission
 
-The Conference Name is dedicated to advancing knowledge and innovation in the field of economics. We strive to create a platform for researchers, practitioners, and industry experts to exchange ideas, share discoveries, and build collaborations that drive progress in our field.
+The Conference is dedicated to advancing knowledge and innovation in the field of economics. We strive to create a platform for researchers, practitioners, and industry experts to exchange ideas, share discoveries, and build collaborations that drive progress in our field.
 
 ## Conference History
 
@@ -35,26 +35,32 @@ Established in 2023, our conference has grown from a small regional meeting with
 :::
 ::: {.g-col-12 .g-col-md-4}
 ##### Jakkrya Sey
-**Program Lead**
+**Program**
 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ##### Sokhimmarya Chea
-**Logistics Lead**
+**Logistics**
 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ##### Sreymeng Sros
-**Logistics Lead**
+**Logistics**
 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ##### Sinoun Him
-**Communication Lead**
+**Communication**
 :::
+
+::: {.g-col-12 .g-col-md-4}
+##### Kean Muny Nhim
+**Communication**
+:::
+
 
 ::::
 
