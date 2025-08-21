@@ -3,7 +3,7 @@ title: "**3rd Southeast Asia Economic Research and Development Conference**"
 format:
   html:
     social:
-      image: docs/images/bander.jpg
+      image: images/bander.jpg
 ---
 
 **Date: October 30-31, 2025**  
