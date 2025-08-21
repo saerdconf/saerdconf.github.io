@@ -36,7 +36,7 @@ website:
   google-analytics:
     tracking-id: "G-J14VZQQD1L"
     anonymize-ip: true
-
+  
 # Format configuration
 format:
   html:
