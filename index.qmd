@@ -126,65 +126,13 @@ The conference seeks to inspire bold and collaborative research that rethinks gr
 
 - **2 Days** of engaging sessions and workshops
 - **4+ Keynote** presentations by experts in the field
-- **20+ Parallel** sessions covering diverse topics
+- **10+ Parallel** sessions covering diverse topics
 - **Networking** opportunities with peers and experts
 - **Conference Dinner** at a premier venue
 
 ## Conference Program
 
-### Day 1: October 30, 2025
-
-| Time          | Event                                         | Location       |
-|---------------|-----------------------------------------------|----------------|
-| 8:30 - 9:00   | Registration                                  | TBD            |
-| 9:00 - 10:00  | Parallel Sessions A                           | TBD            |
-| 10:00 - 10:30 | Coffee Break                                  | TBD            |
-| 10:30 - 11:00 | Welcoming Remark                              | TBD            |
-| 11:00 - 12:00 | Plenary A                                     | TBD            |
-| 12:00 - 13:00 | Lunch                                         | TBD            |
-| 13:00 - 14:00 | Parallel Sessions B                           | TBD            |
-| 14:00 - 14:30 | Coffee Break                                  | TBD            |
-| 14:30 - 16:00 | Panel Session A                               | TBD            |
-| 16:00 - 17:00 | Training Workshop                             | TBD            |
-| 19:00 - 21:00 | Welcome Reception                             | TBD            |
-
-### Day 2: October 31, 2025
-
-
-| Time          | Event                                         | Location       |
-|---------------|-----------------------------------------------|----------------|
-| 9:00 - 10:00  | Parallel Sessions C                           | TBD            |
-| 10:00 - 10:30 | Coffee Break                                  | TBD            |
-| 10:00 - 12:00 | Panel Session B                               | TBD            |
-| 12:00 - 13:00 | Lunch                                         | TBD            |
-| 13:00 - 14:00 | Parallel Sessions D                           | TBD            |
-| 14:00 - 14:30 | Coffee Break                                  | TBD            |
-| 14:30 - 16:00 | Plenary B.                                    | TBD            |
-| 16:00 - 17:00 | Training Workshop                             | TBD            |
-| 19:00 - 22:00 | Conference Dinner                             | TBD            |
-
-## Parallel Sessions
-
-### Sessions A (Day 1, 9:00 - 10:00)
-- **A1: [Topic]** - Room TBD
-- **A2: [Topic]** - Room TBD
-- **A3: [Topic]** - Room TBD
-
-### Sessions B (Day 1, 13:00 - 14:00)
-- **B1: [Topic]** - Room TBD
-- **B2: [Topic]** - Room TBD
-- **B3: [Topic]** - Room TBD
-
-### Sessions C (Day 2, 9:00 - 10:00)
-- **C1: [Topic]** - Room TBD
-- **C2: [Topic]** - Room TBD
-- **C3: [Topic]** - Room TBD
-
-### Sessions D (Day 2, 13:00 - 14:00)
-- **D1: [Topic]** - Room TBD
-- **D2: [Topic]** - Room TBD
-- **D3: [Topic]** - Room TBD
-
+Please download the conference program [here](files/saerd25_program.pdf).
 
 
 ## Registration Information
