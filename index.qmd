@@ -36,14 +36,23 @@ Agricultural and Rural Development Bank (ARDB), Cambodia — Akkak Pundit Saphea
 
 ---
 
-## Important Dates
+## Suggested Contribution Topics
+Submissions may address (but are not limited to) the following themes:
 
-| Milestone | Date |
-|---|---|
-| Abstract submission deadline | **July 15, 2026** |
-| Notification of acceptance | **4th week of July 2026** |
-| Full paper deadline (min. 6,000 words) | **September 30, 2026** |
-| Conference dates | **December 3–4, 2026** |
+- Economic growth, inequality, and inclusion
+- Social protection, welfare systems, and human development
+- Public finance, budgeting, expenditure quality, and fiscal sustainability
+- Governance, institutions, accountability, and state capacity
+- Monitoring & evaluation (M&E), performance management, and public sector reform
+- Sustainability, ecology, natural resource governance, and climate resilience
+- Climate finance, green budgeting, and just transitions
+- Digital transformation, innovation, automation, and public services
+- Food security, agrarian transformation, and rural livelihoods
+- Urban and regional economics; infrastructure and spatial change
+- Labour economics, gender, care, and welfare regimes
+- Regional integration, trade, and global uncertainty
+- History of economic thought, economic history, and path dependency
+- Interdisciplinary and pluralist approaches in economic analysis
 
 ---
 
@@ -65,28 +74,20 @@ Participants will leave with a revised proposal (or chapter outline) and a clear
 
 ---
 
-## Suggested Contribution Topics
-
-- Economic growth, inequality, and inclusion
-- Social protection, welfare systems, and human development
-- Public finance, budgeting, expenditure quality, and fiscal sustainability
-- Governance, institutions, accountability, and state capacity
-- Monitoring & evaluation (M&E), performance management, and public sector reform
-- Sustainability, ecology, natural resource governance, and climate resilience
-- Climate finance, green budgeting, and just transitions
-- Digital transformation, innovation, automation, and public services
-- Food security, agrarian transformation, and rural livelihoods
-- Urban and regional economics; infrastructure and spatial change
-- Labour economics, gender, care, and welfare regimes
-- Regional integration, trade, and global uncertainty
-- History of economic thought, economic history, and path dependency
-- Interdisciplinary and pluralist approaches in economic analysis
-
----
-
 ## Keynote Speakers
 
 Keynote speakers will be announced in the coming months. Please check back for updates at [saerdconf.github.io](https://saerdconf.github.io).
+
+---
+
+## Important Dates
+
+| Milestone | Date |
+|---|---|
+| Abstract submission deadline | **July 15, 2026** |
+| Notification of acceptance | **4th week of July 2026** |
+| Full paper deadline (min. 6,000 words) | **September 30, 2026** |
+| Conference dates | **December 3–4, 2026** |
 
 ---
 
