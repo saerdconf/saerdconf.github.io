@@ -8,7 +8,7 @@ project:
 
 # Website configuration
 website:
-  title: "SAERD25"
+  title: "SAERD26"
   navbar: 
     pinned: true
     background: dark
@@ -24,19 +24,8 @@ website:
         href: contact.qmd
   page-footer:
     center: |
-      <span class="footer-text">© SAERD 2025</span>
-    right: |
-      <span class="footer-text">Made with [Quarto](https://quarto.org)</span>
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - General participants are welcome to register SAERD25 [here](https://forms.gle/c12sMvvrr4mT4coL9)."
-    type: primary
-    position: below-navbar
-  google-analytics:
-    tracking-id: "G-J14VZQQD1L"
-    anonymize-ip: true
-  
+      <span class="footer-text">© SAERD 2026</span>
+
 # Format configuration
 format:
   html:

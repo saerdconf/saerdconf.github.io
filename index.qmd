@@ -1,253 +1,135 @@
 ---
-title: "**3rd Southeast Asia Economic Research and Development Conference**"
+title: "4th Southeast Asia Economic Research and Development Conference"
 format:
   html:
     social:
       image: images/bander.jpg
 ---
 
-**Date: October 30-31, 2025**  
-**Location: Paññāsāstra University of Cambodia, Siem Reap (PUCSR), Siem Reap, Cambodia**
+**Date: December 3–4, 2026**
+**Venue: Paññāsāstra University of Cambodia (PUC) – Siem Reap Campus, Krong Siem Reap, Cambodia**
 
-Join us for the premier conference in economics, bringing together leading researchers, practitioners, and industry experts to explore cutting-edge developments and future directions in Southeast Asia.
+Join us for the 4th Southeast Asia Economic Research and Development Conference (SAERD 2026) — a platform bringing together young scholars, researchers, policymakers, and practitioners to exchange perspectives and advance evidence-based understanding of Southeast Asia's socio-economic landscape.
 
-### Latest Announcements
+[Submit Your Abstract](https://ysi.ineteconomics.org/event/4th-southeast-asia-economic-research-and-development-conference/){.btn .btn-primary .mt-3}
 
-We would like to inform participants that the announcement of travel stipends and accommodation support has been delayed due to logistical issues on our end. Selected applicants and those not selected for these grants will be notified via email soon. Once the grants are announced, participants will be able to register to attend the conference. We appreciate your patience and understanding.
+---
 
+## About SAERD 2026
 
-### Important Dates
+Southeast Asia is experiencing rapid and uneven socio-economic change shaped by structural transformation, widening inequality, demographic shifts, climate vulnerability, pressures on land and natural resources, and the uneven impacts of digitalisation on economic life and public service delivery. These dynamics raise urgent questions about emerging growth pathways, the distribution of risk across households, firms, and territories, and the institutional and fiscal capacities required for social protection, climate resilience, and inclusive development.
 
-- Deadline for abstract submission: **July 15, 2025**.
-- Notifications of acceptance will be sent out in **the fourth week of July**.
-- Deadline for submission of full papers: **September 30, 2025**.
-- Conference dates: **October 30-31, 2025**.
+SAERD is designed to be both supportive and rigorous for young scholars from the region and around the world. We welcome early-stage work and fully developed papers, and we prioritise meaningful feedback through discussant-led sessions and moderated discussion. SAERD aims to strengthen Cambodia as one of the centres of regional research convening, where young and senior scholars can meet on equal intellectual ground, learn from disagreement, and build collegial and solidarity-based research networks.
 
-[Submit your abstract here](https://fs8.formsite.com/CNZLjX/puc/index){.btn .btn-primary .mt-3}
+---
 
+## Organisers
 
-Southeast Asia stands at the crossroads of dynamic economic progress and significant socio-economic challenges. As one of the most vibrant and diverse regions globally, it has achieved remarkable strides in economic growth, regional integration, and poverty reduction. However, this growth has been accompanied by rising inequality, environmental degradation, technological disruptions, and increasing vulnerabilities to global uncertainties and climate change. This raises critical questions: How can Southeast Asia balance its rapid economic growth with inequality, ecological change, and digital transformation? Furthermore, how does research on Southeast Asia help us to understand the socio-economic rules that govern the world?
-Addressing these polycrises requires innovative, multidimensional solutions that transcend traditional economic paradigms. The 3rd Southeast Asia Economic Research and Development Conference serves as a platform for young scholars, researchers, policymakers, and practitioners to convene, exchange perspectives, and propose actionable solutions tailored to the region’s unique context. 
+**Host / Strategic Partner:**
+Agricultural and Rural Development Bank (ARDB), Cambodia — Akkak Pundit Sapheachar Aun Pornmoniroth Center (APM Center)
 
-Adopting an interdisciplinary and pluralist approach, the conference aims to foster dialogue that integrates economic theory, empirical analysis, and practical policy interventions. By leveraging insights from various disciplines and methodologies, participants will contribute to a deeper understanding of the complex interactions shaping Southeast Asia's socio-economic landscape.
+**Co-organisers:**
 
-The conference seeks to inspire bold and collaborative research that rethinks growth, sustainability, and equity within the region. The papers presented will not only enrich academic discourse but also provide a foundation for evidence-based policymaking to support inclusive and sustainable development in Southeast Asia. We welcome submissions that explore, but are not limited to, the following themes:
+- Young Scholars Initiative (YSI), Institute for New Economic Thinking (INET)
+- Paññāsāstra University of Cambodia (PUC) – Siem Reap Campus
+- Cambodia Development Resource Institute (CDRI)
+
+---
+
+## Important Dates
+
+| Milestone | Date |
+|---|---|
+| Abstract submission deadline | **July 15, 2026** |
+| Notification of acceptance | **4th week of July 2026** |
+| Full paper deadline (min. 6,000 words) | **September 30, 2026** |
+| Conference dates | **December 3–4, 2026** |
+
+---
+
+## Conference Format
+
+The conference will feature **plenary sessions** with invited senior scholars and **parallel paper sessions** for young scholars. Papers will be selected through a peer review process. Parallel sessions will use a discussant model to ensure constructive and substantive feedback for presenters. In addition to research paper panels, keynote addresses and roundtables will be organised with senior scholars.
+
+### Parallel Track: Master's Thesis Development Workshop
+
+SAERD 2026 will host a **two-day Master's Thesis Development Workshop** in parallel with the main conference (10–12 participants). The workshop is intended for Cambodian and regional Master's students and early-career researchers and will focus on:
+
+- Research design and question formulation
+- Conceptual framing and theoretical clarity
+- Methods training (qualitative, quantitative, mixed methods)
+- Feasibility, ethics, and data strategies
+- Structured mentoring and proposal-development sessions
+
+Participants will leave with a revised proposal (or chapter outline) and a clearer methods and data plan.
+
+---
 
 ## Suggested Contribution Topics
+
 - Economic growth, inequality, and inclusion
-- Development and sustenance of social protection and social security system
-- Health, and demographic transition
-- Urban and regional economics 
-- Sustainability, ecology, natural resource management and climate resilience
-- Food security and agrarian transformation
-- Digital transformation, automation,  and innovation
-- Regional integration and trade
-- Governance, institutions, and economic policy
-- Labour economics and gender
-- History of economic thought, economic history and path-dependency
+- Social protection, welfare systems, and human development
+- Public finance, budgeting, expenditure quality, and fiscal sustainability
+- Governance, institutions, accountability, and state capacity
+- Monitoring & evaluation (M&E), performance management, and public sector reform
+- Sustainability, ecology, natural resource governance, and climate resilience
+- Climate finance, green budgeting, and just transitions
+- Digital transformation, innovation, automation, and public services
+- Food security, agrarian transformation, and rural livelihoods
+- Urban and regional economics; infrastructure and spatial change
+- Labour economics, gender, care, and welfare regimes
+- Regional integration, trade, and global uncertainty
+- History of economic thought, economic history, and path dependency
 - Interdisciplinary and pluralist approaches in economic analysis
 
+---
 
-## Confirmed Keynote Speakers
+## Keynote Speakers
 
-:::: {.grid}
+Keynote speakers will be announced in the coming months. Please check back for updates at [saerdconf.github.io](https://saerdconf.github.io).
 
-::: {.g-col-12 .g-col-md-3}
-![](images/Samreth.jpg){.speaker-img}
-**Prof. Sovannroeun Samreth**
+---
 
-*Professor, Saitama University, Japan*
-:::
+## Submission Guidelines
 
-::: {.g-col-12 .g-col-md-3}
-![](images/Chou.jpg){.speaker-img}
-**Prof. Phanith Chou** 
+Please submit the following:
 
-*Associate Professor of Environmental Economics, Royal University of Phnom Penh, Cambodia*
-:::
+- **Title and abstract** (300–500 words)
+- **Author name(s), affiliation(s), and contact details**
+- **4–6 keywords**
+- Indicate whether you wish to be considered for **travel/accommodation support** (if eligible)
+- Indicate if you would like to be considered for the **Master's Thesis Development Workshop** (if applicable)
+- Indicate if you want to be considered for the **best paper award**, which is conditional on the submission of a 6,000–10,000 word working paper and publication with ARDB
 
-::: {.g-col-12 .g-col-md-3}
-![](images/Ratha.jpg){.speaker-img}
-**Dr. Ratha Chiv** 
+[Submit Your Abstract](https://ysi.ineteconomics.org/event/4th-southeast-asia-economic-research-and-development-conference/){.btn .btn-primary .mt-3}
 
-*Executive Vice Chancellor, Paññāsāstra University of Cambodia, Siem Reap Campus, Cambodia *
-:::
+---
 
-::: {.g-col-12 .g-col-md-3}
-![](images/Daniel.jpg){.speaker-img}
-**Dr. Daniel Yonto** 
+## Participation, Travel, and Accommodation
 
-*Assistant Professor, Xi’an Jiaotong-Liverpool University, China *
-:::
-
-
-::: {.g-col-12 .g-col-md-3}
-![](images/Olivier.jpg){.speaker-img}
-**Prof. Olivier Bargain** 
-
-*Professor of Economics, Bordeaux University, France *
-:::
-
-::: {.g-col-12 .g-col-md-3}
-![](images/Maria.jpg){.speaker-img}
-**Dr. Maria C. Lo Bue** 
-
-*Assistant professor, University of Trieste, Italy*
-:::
-
-
-::: {.g-col-12 .g-col-md-3}
-![](images/Ahmad.jpg){.speaker-img}
-**Mr. Shakeel Ahmad** 
-
-*Deputy Resident Representative, UNDP Cambodia*
-:::
-
-::: {.g-col-12 .g-col-md-3}
-![](images/Rada.jpg){.speaker-img}
-**Dr. Rada Khoy** 
-
-*Economist, UNDP Cambodia*
-:::
-
-::: {.g-col-12 .g-col-md-3}
-![](images/Theara.jpg){.speaker-img}
-**Mr. Theara Khoun** 
-
-*Socio-economic Policy Specialist, UNDP Cambodia*
-:::
-
-
-::::
-
-[More speakers to be updated]()
-
-## Conference Highlights
-
-- **2 Days** of engaging sessions and workshops
-- **4+ Keynote** presentations by experts in the field
-- **10+ Parallel** sessions covering diverse topics
-- **Networking** opportunities with peers and experts
-- **Conference Dinner** at a premier venue
-
-## Conference Program
-
-Please download the conference program [here](files/saerd25_program.pdf).
-
-## Participant
--	Abina VP	(Institute for Social and Economic Change)
--	Ahmad Sabrin	(Institute for Climate Law and Sustainable Policy)
--	Ashish Chouhan 	(Indian Institute of Technology Guwahati)
--	Aung Than Oo 	(Tsinghua University)
--	Bernard-Didier Benissan 	(University of Abomey-Calavi)
--	Chanthol Hay	(Pannasastra University)
--	Clement Berthou 	(Université Grenoble Alpes/Institute for Banking Studies)
--	Daniel Yonto	(Xi’an Jiaotong-Liverpool University)
--	Darlin Nay 	(Agricultural and Rural Development Bank)
--	Deeksha Gulati 	(Solidar Suisse)
--	Dhritiraj Sarma	(Cotton University)
--	Fahadz Lulu	(Philippine Women's University)
--	Giulio Pavesi	(University of Amsterdam)
--	Hang Panha Hour	(Agricultural and Rural Development Bank)
--	Hizkia Yosias Polimpung	(Monash University Malaysia)
--	Jakkrya Sey	(Cambodia Development Resource Institute)
--	Jimi Rambo Arranchado 	(University of Canterbury)
--	Jun Shen 	(Nanyang Technological University)
--	Jyoti Thaksur 	(National Council of Applied Economic Research)
--	Kean Muny Nhim	(Royal University of Law and Economics)
--	Keiji Ujikawa	(Yokohama National University)
--	Kosal Nith	(Young Scholars Initiative and CDRI)
--	Lingyan Zhu	(Universiti Malaya)
--	Mahjabin Rashid Lamisha 	(University of Dhaka)
--	Maria C. Lo Bue	(University of Trieste)
--	Mek Ajay Sribhibhadh	(London School of Economics and Political Science)
--	Mohid Iftikhar	(Lingnan University)
--	Monineath Horn	(Agricultural and Rural Development Bank)
--	Ndirangu Ngunjiri 	(University of Nairobi)
--	Nirmala Velan	(GITAM University)
--	Olivier Bargain	(Bordeaux University)
--	Panha Pich Sok 	(Agricultural and Rural Development Bank)
--	Penghuy Ngov	(Royal University of Phnom Penh)
--	Phanith Chou	(Royal University of Phnom Penh)
--	Pieter Stek	(Asia School of Business)
--	Pirom Khiev	(Cambodia Development Resource Institute)
--	Pragati Pragati	(Indian Institute of Technology)
--	Pragyan Monalisa Sahoo 	(Utkal University)
--	Prakashani Singh 	(Indian Institute of Technology Kanpur)
--	Pranita Pathak	(Savitribai Phule Pune University)
--	Puja Biswas	(Prasanta Chandra Mahalanobis Mahavidyalaya)
--	Rada Khoy	(UNDP Cambodia)
--	Raksmey Ang	(Cambodia Development Resource Institute)
--	Rasyid Juhari	(Asia School of Business)
--	Ratha Chiv	(Paññāsāstra University of Cambodia)
--	Roop Chand Hindu	(Universiti Malaya)
--	Saddam Hossain Mondal	(Heramba Chandra College)
--	Sana Saleem 	(University of Brunei Darussalam)
--	Sattwick Dey Biswas	(Young Scholars Initiative)
--	Sei Okamoto	(Independent Researcher)
--	Shakeel Ahmad	(UNDP Cambodia)
--	Sinoun Him	(Ministry of Post and Telecommunications)
--	Sivam Tamilaseluan	(Universiti Malaya)
--	Sokhimmarya Chea	(Royal University of Law and Economics)
--	Sokmoly Uon	(Cambodia Development Resource Institute)
--	Sovannroeun Samreth	(Saitama University)
--	Sreymeng Sros	(Royal University of Law and Economics)
--	Sreynoch Sak	(Cambodia Development Resource Institute)
--	Sushil Goswami	(Gujarat National Law University)
--	Swathi Krishna K U	(Centre for Development Studies)
--	Thach Bunroeun	(National University of Battambang)
--	Theara Khoun	(UNDP Cambodia)
--	Thirunaukarasu Subramaniam	(Universiti Malaya)
--	Thu Ha Thi Pham 	(Vietnam National University of Agriculture)
--	Trey Silong	(Royal University of Phnom Penh)
--	Triny Lum	(Asia School of Business)
--	Ubaish Mon C.P.	(University of Calicut)
--	Vimuolea Hang	(King's College London)
--	Vinay Kumar	(Indian Institute of Technology Bhilai)
--	Vitou Tes	(Teacher Development Support Organization)
--	Yesi Hendriani Supartoyo	(National Research and Innovation Agency)
-
-
-## Registration Information
-
-General participants are welcome to attend SAERD25. You can register to attend the conference [here](https://forms.gle/c12sMvvrr4mT4coL9).
-
-Participation is free of charge, but registration is required to secure your place.
-
-## Travel and Accommodation
-
-We are delighted to welcome you to SAERD25 in Siem Reap, Cambodia. Below you will find practical information to help plan your stay.
+Participation is **free** for authors of selected papers. A limited number of **travel and accommodation support grants** may be available for PhD students and early-career scholars (≤5 years post-PhD), subject to funding availability. Priority will be given to women researchers and researchers with disabilities. Please indicate your interest and eligibility in your application.
 
 ### Travel to Siem Reap
 
-- Airport: Siem Reap–Angkor International Airport (SAI) is the main gateway to Siem Reap, with direct flights from Bangkok, Singapore, Kuala Lumpur, Ho Chi Minh City, and other regional hubs.
-- From the Airport to the City:
-  - Taxi: USD 15–20 (30–40 minutes to the city centre)
-  - Hotel pick-up: Many hotels provide transfer services if arranged in advance.
+- **Airport:** Siem Reap–Angkor International Airport (SAI) is the main gateway, with direct flights from Bangkok, Singapore, Kuala Lumpur, Ho Chi Minh City, and other regional hubs.
+- **From the airport:** Taxi USD 15–20 (30–40 minutes to the city centre). Many hotels also provide transfer services if arranged in advance.
 
 ### Transportation in Siem Reap
 
-- Tuk-tuks: The most common way to get around, usually USD 2–5 per trip within the city.
-- Ride-hailing apps: PassApp and Grab are widely used for tuk-tuks and cars.
-- To the Conference Venue (PUC Siem Reap Campus): About 10–15 minutes by tuk-tuk from most central hotels.
-
-### Accommodation
-
-Siem Reap offers a wide variety of accommodation options for every budget. We encourage participants to book early as October is a busy season for tourists.
+- **Tuk-tuks:** The most common way to get around, usually USD 2–5 per trip within the city.
+- **Ride-hailing apps:** PassApp and Grab are widely used for tuk-tuks and cars.
+- **To the venue (PUC Siem Reap Campus):** About 10–15 minutes by tuk-tuk from most central hotels.
 
 ### Additional Tips
-- Visa: Most nationalities can obtain a tourist visa online ([e-visa](https://www.evisa.gov.kh)) or on arrival. Check requirements before travelling.
-- Currency: US dollars are widely accepted; Cambodian riel is used for small transactions.
-- Weather in October: Warm (25–32°C) with occasional rain showers—light clothing and an umbrella are recommended.
+
+- **Visa:** Most nationalities can obtain a tourist visa online at [evisa.gov.kh](https://www.evisa.gov.kh) or on arrival. Check requirements before travelling.
+- **Currency:** US dollars are widely accepted; Cambodian riel is used for small transactions.
+- **Weather in December:** December falls in the dry season — cool, sunny, and pleasant, around 22–30°C. Ideal conditions for the conference.
+
+---
 
 ## Contact
 
 For inquiries about the conference, please contact us at [saerdconf@gmail.com](mailto:saerdconf@gmail.com).
 
-
-## Supported by
-![](images/saerd25_logo.png){width=100%}
-
-[Become a Sponsor](contact.qmd)
-
-We welcome collaboration to support young scholars in the region with travel-related expenses. If you are interested in supporting them, please reach out to us using the contact information above.
+Updated information will be posted at: [saerdconf.github.io](https://saerdconf.github.io)

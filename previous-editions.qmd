@@ -4,6 +4,21 @@ title: "Previous Editions"
 
 Our conference has a rich history of bringing together the brightest minds in economics. Below you can explore our past editions, including highlights, notable speakers, and programs.
 
+## [2025 Edition](2025-edition.qmd)
+
+**Theme:** "Economic Development and Climate Change"  
+**Date:** October 30-21, 2025  
+**Location:** Paññāsāstra University of Cambodia, Siem Reap Campus (PUCSR), Siem Reap, Cambodia  
+**Participants:** 70+ attendees from 12 countries
+
+### Highlights
+
+- Keynote speaker by Mr. Shakeel Ahmad (UNDP Cambodia), Prof. Sovannroeun Samreth (Saitama University), Prof. Phanith Chou (Royal University of Phnom Penh), Dr. Ratha Chiv (aññāsāstra University of Cambodia, Siem Reap Campus), and Prof. Olivier Bargain (Bordeaux University), Dr. Maria C. Lo Bue (University of Trieste), Dr. Rada Khoy (UNDP Cambodia), Dr. Daniel Yonto (Xi’an Jiaotong-Liverpool University), and Mr. Theara Khoun (UNDP Cambodia)
+
+### Program
+
+The program for the 2025 conference is available as a PDF file [here](files/saerd25_program.pdf).
+
 ## [2024 Edition](2024-edition.qmd)
 
 **Theme:** "Economic Development and Climate Change"  
@@ -36,7 +51,3 @@ The program for the 2024 conference is available as a PDF file [here](files/saer
 ### Program
 
 The program for the 2023 conference is available as a PDF file [here](files/agendaSAERD23.pdf).
-
-## Photo Gallery
-
-[View our complete conference photo gallery](gallery.qmd)
