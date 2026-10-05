@@ -6,12 +6,17 @@ format:
       image: images/bander.jpg
 ---
 
-**Date: December 3–4, 2026**
+**Date: December 2–4, 2026**
 **Venue: Paññāsāstra University of Cambodia (PUC) – Siem Reap Campus, Krong Siem Reap, Cambodia**
 
 Join us for the 4th Southeast Asia Economic Research and Development Conference (SAERD 2026) — a platform bringing together young scholars, researchers, policymakers, and practitioners to exchange perspectives and advance evidence-based understanding of Southeast Asia's socio-economic landscape.
 
+[Register Now](https://forms.gle/x6rtZy9sgJAaXc8b6){.btn .btn-primary .mt-3 target="_blank"}
 [Submit Your Abstract](https://ysi.ineteconomics.org/event/4th-southeast-asia-economic-research-and-development-conference/){.btn .btn-primary .mt-3}
+
+::: {.callout-note appearance="simple"}
+**General participants:** you are responsible for your own meals during the conference, including coffee breaks, lunch, and dinner.
+:::
 
 ---
 
@@ -74,9 +79,17 @@ Participants will leave with a revised proposal (or chapter outline) and a clear
 
 ---
 
-## Keynote Speakers
+## Program and Speakers
 
-Keynote speakers will be announced in the coming months. Please check back for updates at [saerdconf.github.io](https://saerdconf.github.io).
+The full conference program — plenary sessions, panel discussions, and 25 parallel sessions with all accepted papers — is now available, along with our invited speakers.
+
+[View the Program](program.qmd){.btn .btn-primary .mt-3}
+[Meet the Speakers](speakers.qmd){.btn .btn-outline-primary .mt-3}
+[Download Program (PDF)](files/saerd26_program.pdf){.btn .btn-outline-primary .mt-3 download="saerd26_program.pdf"}
+
+::: {.callout-important appearance="simple"}
+**Please note:** the conference program on this website and the PDF are updated automatically whenever changes are made. The time, room, or order of your session may therefore change, so please check back regularly for the latest version.
+:::
 
 ---
 
@@ -87,7 +100,7 @@ Keynote speakers will be announced in the coming months. Please check back for u
 | Abstract submission deadline | **July 15, 2026** |
 | Notification of acceptance | **4th week of July 2026** |
 | Full paper deadline (min. 6,000 words) | **September 30, 2026** |
-| Conference dates | **December 3–4, 2026** |
+| Conference dates | **December 2–4, 2026** |
 
 ---
 

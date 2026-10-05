@@ -1,0 +1,476 @@
+/* =============================================================
+   VIDEO CAROUSEL  —  video.css
+   Companion file: video.js
+
+   Breakpoints
+   ───────────────────────────────────────────────────────────
+   ≥ 1024px   desktop   3 cards visible
+   768–1023px tablet    2 cards visible
+   < 768px    mobile    1 card, swipe navigation
+   ============================================================= */
+
+
+/* ── Section wrapper ─────────────────────────────────────────
+ * JS sets margin-left and width at init+resize to pull the
+ * section to the true viewport left edge (full-bleed escape).
+ * overflow-x: clip prevents a horizontal scrollbar.
+ * ────────────────────────────────────────────────────────── */
+.vc-section {
+  padding: 64px 0 72px;
+  box-sizing: border-box;
+  overflow-x: clip;
+}
+
+.vc-head {
+  padding: 0 40px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+
+/* ── Carousel viewport ───────────────────────────────────────
+ * overflow:hidden clips the sliding track only.
+ * Buttons are NOT inside this element.
+ * ────────────────────────────────────────────────────────── */
+.vc-outer {
+  position: relative;
+  overflow: hidden;
+}
+
+.vc-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.vc-track.animating {
+  transition: transform 0.52s cubic-bezier(0.32, 0, 0.18, 1);
+}
+
+
+/* ── Cards ───────────────────────────────────────────────── */
+.vc-card {
+  flex-shrink: 0;
+  min-width: 0;
+  cursor: pointer;
+}
+
+.vc-card.side-card {
+  opacity: 0.55;
+  transition: opacity 0.25s ease;
+}
+.vc-card.side-card:hover { opacity: 0.8; }
+
+
+/* ── Video frame ─────────────────────────────────────────── */
+.vc-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #111;
+  overflow: hidden;
+}
+
+.vc-frame::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border: 3px solid var(--yellow, #FFE600);
+  border-radius: 30px 4px 4px 30px;
+  clip-path: polygon(0 9%, 7% 0, 100% 0, 100% 100%, 7% 100%, 0 91%);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.vc-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  display: block;
+  transition: opacity 0.3s;
+}
+
+.vc-embed {
+  position: absolute;
+  inset: 0;
+  display: none;
+  z-index: 8;
+}
+.vc-embed iframe { width: 100%; height: 100%; border: none; }
+.vc-embed.on { display: block; }
+
+.vc-play-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.12);
+  z-index: 6;
+  transition: background 0.2s;
+}
+.vc-play-overlay:hover { background: rgba(0, 0, 0, 0.28); }
+.vc-play-overlay.gone  { display: none; }
+
+.vc-play-btn {
+  width: 80px;
+  height: 80px;
+  border: 2.5px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.vc-play-overlay:hover .vc-play-btn {
+  transform: scale(1.07);
+  border-color: #fff;
+}
+.vc-play-btn svg {
+  fill: rgba(255, 255, 255, 0.9);
+  width: 28px;
+  height: 28px;
+  margin-left: 5px;
+}
+
+.vc-duration {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  z-index: 7;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 3px;
+  letter-spacing: 0.03em;
+}
+
+
+/* ── Card info ───────────────────────────────────────────── */
+/*
+ * SPACING CONTROL
+ * ─────────────────────────────────────────────────────────
+ * All values use !important to beat the site's own stylesheet.
+ *
+ * ↕ Gap between video frame and first line of text:
+ *   .vc-card-info  padding-top  (currently 6px)
+ *   .vc-tag        margin-top   (forced to 0)
+ *   .vc-card-info h3  margin-top  (forced to 0)
+ *
+ * Tune ONLY the value marked ← TUNE THIS to change the gap.
+ * ────────────────────────────────────────────────────────── */
+
+/* The wrapper: padding-top is the gap below the video frame */
+.vc-card-info {
+  padding: 6px 20px 0 !important; /* ← TUNE THIS (0 = flush, 6px = tight) */
+}
+
+.vc-card[data-pos="edge-left"]  .vc-card-info { padding-left:  40px !important; }
+.vc-card[data-pos="edge-right"] .vc-card-info { padding-right: 40px !important; }
+
+/* Kill any margin-top the site adds to these elements */
+.vc-card-info .vc-tag,
+.vc-card-info h3,
+.vc-card-info p {
+  margin-top: 0 !important;
+}
+
+.vc-tag {
+  display: none !important;
+}
+
+.vc-card-info h3 {
+  margin-bottom: 7px !important;
+  line-height: 1.32 !important;
+  color: var(--black, #0a0a0a);
+}
+
+.vc-card-info p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 0 !important;
+}
+
+
+/* ── Navigation arrows ───────────────────────────────────────
+ *
+ * Buttons use position:fixed so they escape every overflow:hidden
+ * and transform stacking context in the ancestor chain.
+ * JS calculates exact viewport coordinates (left, top) and writes
+ * them as inline styles on each button after every paint.
+ *
+ * A data-hidden attribute is toggled by JS on mobile so the
+ * buttons disappear without needing a media-query override.
+ * ────────────────────────────────────────────────────────── */
+.vc-btn {
+  position: fixed;        /* escapes ALL overflow:hidden ancestors */
+  /* left and top set by JS — see updateArrowPos() in video.js   */
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, border-color 0.2s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 0;
+}
+.vc-btn:hover {
+  background: rgba(0, 0, 0, 0.58);
+  border-color: rgba(255, 255, 255, 0.9);
+}
+.vc-btn svg { width: 15px; height: 15px; }
+.vc-btn[data-hidden="true"] { display: none; }
+
+
+/* ── Dots ────────────────────────────────────────────────── */
+.vc-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.vc-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.vc-dot.on {
+  background: var(--black, #0a0a0a);
+  transform: scale(1.4);
+}
+
+
+/* ── Tablet (768px – 1023px) ─────────────────────────────── */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .vc-head { padding: 0 32px; }
+
+  .vc-card[data-pos="edge-left"]  .vc-card-info { padding-left:  32px; }
+  .vc-card[data-pos="edge-right"] .vc-card-info { padding-right: 32px; }
+
+  .vc-play-btn     { width: 64px; height: 64px; }
+  .vc-play-btn svg { width: 22px; height: 22px; }
+}
+
+
+/* ── Mobile (< 768px) ────────────────────────────────────── */
+@media (max-width: 767px) {
+  .vc-section { padding: 40px 0 52px; }
+  .vc-head    { padding: 0 20px; margin-bottom: 24px; }
+  .vc-head h2 { font-size: 1.5rem; }
+
+  .vc-card-info                                 { padding: 6px 20px 0 !important; }
+  .vc-card-info .vc-tag,
+  .vc-card-info h3,
+  .vc-card-info p                               { margin-top: 0 !important; }
+  .vc-card[data-pos="edge-left"]  .vc-card-info { padding-left:  20px; }
+  .vc-card[data-pos="edge-right"] .vc-card-info { padding-right: 20px; }
+
+  .vc-play-btn     { width: 56px; height: 56px; }
+  .vc-play-btn svg { width: 18px; height: 18px; }
+
+  .vc-dots { margin-top: 20px; }
+}
+
+/* ═══════════════════════════════════════
+   KN BIO + PHOTO PANEL  —  kn-* namespace
+   ═══════════════════════════════════════ */
+
+.kn-page {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 67vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* ── LEFT: BIO (65%) ── */
+.kn-bio-panel {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 48px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.kn-bio-inner {
+  max-width: 100%; /* text stays left, doesn't stretch to centre */
+  width: 100%;
+  margin: 0;
+  animation: kn-slideIn 0.5s 0.2s both;
+}
+
+
+/* ── RIGHT: PHOTOS 2×2 (35%) ── */
+.kn-photos-panel {
+  width: 40%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+  position: relative;
+}
+
+.kn-photo-cell {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.kn-photo-cell:nth-child(1) { background: #2a2420; }
+.kn-photo-cell:nth-child(2) { background: #7a1616; }
+.kn-photo-cell:nth-child(3) { background: #3d3830; }
+.kn-photo-cell:nth-child(4) { background: #ede9e1; }
+
+.kn-photo-cell img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.kn-photo-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px 14px;
+  transition: background 0.3s;
+  z-index: 2;
+}
+.kn-photo-cell:hover .kn-photo-overlay { background: rgba(0, 0, 0, 0.65); }
+
+.kn-photo-meta {
+  transform: translateY(8px);
+  opacity: 0;
+  transition: opacity 0.25s, transform 0.25s;
+}
+.kn-photo-cell:hover .kn-photo-meta { opacity: 1; transform: translateY(0); }
+
+.kn-p-num {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 16px;
+  z-index: 3;
+  transition: color 0.25s;
+}
+.kn-photo-cell:hover .kn-p-num { color: rgba(255, 255, 255, 0.6); }
+
+.kn-p-label  { color: #fff; font-size: 19px; margin-bottom: 2px; }
+.kn-p-desc   { color: rgba(255, 255, 255, 0.8); font-size: 17px; margin-bottom: 8px; }
+
+.kn-btn-dl {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  background: #ffffff;
+  color: #1a1612;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.2s;
+  width: fit-content;
+}
+.kn-btn-dl:hover { background: #d4b483; }
+
+.kn-usage-ribbon {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: rgba(139, 26, 26, 0.93);
+  padding: 6px 12px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+  text-align: center;
+  z-index: 10;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+  pointer-events: none;
+}
+.kn-photos-panel:hover .kn-usage-ribbon { transform: translateY(0); }
+
+/* Push bottom-row overlays above the ribbon */
+.kn-photo-cell:nth-child(3) .kn-photo-overlay,
+.kn-photo-cell:nth-child(4) .kn-photo-overlay { padding-bottom: 50px; }
+
+/* ── ANIMATIONS ── */
+@keyframes kn-slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes kn-fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.kn-bio-inner           { animation: kn-slideIn 0.5s 0.2s both; }
+.kn-photo-cell:nth-child(1) { animation: kn-fadeIn 0.6s 0.15s both; }
+.kn-photo-cell:nth-child(2) { animation: kn-fadeIn 0.6s 0.25s both; }
+.kn-photo-cell:nth-child(3) { animation: kn-fadeIn 0.6s 0.35s both; }
+.kn-photo-cell:nth-child(4) { animation: kn-fadeIn 0.6s 0.45s both; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 860px) {
+  .kn-page {
+    flex-direction: column;
+    height: auto;
+    overflow: visible;
+  }
+  .kn-bio-panel {
+    width: 100%;
+    padding: 36px 24px;
+    overflow: visible;
+    height: auto;
+  }
+  .kn-bio-inner { max-width: 100%; }
+  .kn-photos-panel {
+    width: 100%;
+    /* 60vw for photos + 40px for ribbon row */
+    height: calc(60vw + 40px);
+    grid-template-rows: 30vw 30vw 40px;
+  }
+  /* Ribbon sits in its own grid row — no overlap */
+  .kn-usage-ribbon {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    position: static;
+    transform: none !important;
+    transition: none;
+    line-height: 40px;
+    padding: 0 12px;
+    pointer-events: auto;
+  }
+  /* Reset the extra bottom padding since ribbon has its own row */
+  .kn-photo-cell:nth-child(3) .kn-photo-overlay,
+  .kn-photo-cell:nth-child(4) .kn-photo-overlay {
+    padding-bottom: 12px;
+  }
+}

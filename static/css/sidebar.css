@@ -1,0 +1,317 @@
+/* ============================================================
+   TWO-COLUMN ECONOMIST LISTS — zero gap, dense
+============================================================ */
+.two-col-list {
+  list-style: none;
+  margin: 0 0 0.9em 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 24px;
+}
+
+.two-col-list li {
+  font-size: inherit;
+  line-height: 1.45;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .two-col-list { grid-template-columns: 1fr; }
+}
+
+/* ============================================================
+   PAGE LAYOUT — content left, sidebar pinned right
+============================================================ */
+.otp-page-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 0;
+  padding: 0;
+  position: relative;
+}
+
+.otp-main-content {
+  flex: 1;
+  min-width: 0;
+  padding-left: 180px;
+  padding-right: 150px; /* keep clear of fixed sidebar */
+}
+
+/* Tablet (769px – 1024px): reduce horizontal padding, sidebar slides in */
+@media (max-width: 1024px) {
+  .otp-main-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* Phone (≤ 768px): minimal padding */
+@media (max-width: 768px) {
+  .otp-main-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* ============================================================
+   SIDEBAR — pinned to right edge of viewport
+============================================================ */
+.otp-sidebar {
+  position: fixed;
+  top: 88px;
+  right: 0;
+  width: 230px;
+  max-height: calc(100vh - 108px);
+  overflow-y: auto;
+  padding: 18px 20px 18px 18px;
+  background: transparent;
+  border-left: none;
+  z-index: 100;
+  /* Visibility transition */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  /* Thin scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #bbb transparent;
+}
+
+.otp-sidebar.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+html.dark-mode .otp-sidebar {
+  background: transparent;
+  scrollbar-color: #555 transparent;
+}
+
+.otp-sidebar::-webkit-scrollbar {
+  display: block;
+  width: 3px;
+}
+.otp-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.otp-sidebar::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 2px;
+}
+.otp-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+html.dark-mode .otp-sidebar::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Collapsed state */
+.otp-sidebar.is-collapsed .otp-sidebar__list { display: none; }
+.otp-sidebar.is-collapsed .otp-sidebar__toggle-icon { transform: rotate(-90deg); }
+
+/* Header — clickable toggle */
+.otp-sidebar__header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 0.01em;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+  padding-bottom: 10px;
+  border-bottom: none;
+  width: 100%;
+}
+.otp-sidebar__header:hover { opacity: 0.75; }
+html.dark-mode .otp-sidebar__header { color: #e0e0e0; }
+
+.otp-sidebar__icon { flex-shrink: 0; color: #444; }
+html.dark-mode .otp-sidebar__icon { color: #aaa; }
+
+.otp-sidebar__toggle-icon {
+  margin-left: auto;
+  font-size: 11px;
+  color: #999;
+  transition: transform 0.18s;
+  display: inline-block;
+}
+
+/* List reset */
+.otp-sidebar__list,
+.otp-sidebar__sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* L1 links */
+.otp-sidebar__link {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #444;
+  text-decoration: none;
+  padding: 5px 0;
+  line-height: 1.35;
+  transition: color 0.12s;
+}
+.otp-sidebar__link:hover { color: #111; text-decoration: none; }
+html.dark-mode .otp-sidebar__link { color: #999; }
+html.dark-mode .otp-sidebar__link:hover { color: #eee; }
+
+.otp-sidebar__link.is-active { color: #c00; font-weight: 600; }
+html.dark-mode .otp-sidebar__link.is-active { color: #ff6b6b; }
+
+/* L2 sub-links */
+.otp-sidebar__sublist { padding-left: 14px; margin: 1px 0 4px; }
+.otp-sidebar__link--sub {
+  font-size: 13.5px;
+  color: #888;
+  padding: 3px 0;
+}
+.otp-sidebar__link--sub:hover { color: #333; }
+.otp-sidebar__link--sub.is-active { color: #c00; font-weight: 600; }
+html.dark-mode .otp-sidebar__link--sub { color: #777; }
+html.dark-mode .otp-sidebar__link--sub:hover { color: #ccc; }
+html.dark-mode .otp-sidebar__link--sub.is-active { color: #e0e0e0; }
+
+/* Mobile sidebar — slide-in panel */
+@media (max-width: 1024px) {
+  .otp-page-wrapper { display: block; }
+  .otp-main-content { padding-right: 0; }
+
+  .otp-sidebar {
+    position: fixed;
+    top: 0;
+    right: -260px;
+    width: 240px;
+    height: 100vh;
+    max-height: 100vh;
+    background: #fff;
+    border-left: 1px solid #e4e4e4;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.07);
+    padding: 28px 20px;
+    z-index: 1000;
+    opacity: 1;
+    pointer-events: auto;
+    transition: right 0.28s cubic-bezier(.4,0,.2,1);
+    overflow-y: auto;
+  }
+  html.dark-mode .otp-sidebar { background: #1c1c1c; border-left-color: #333; }
+  .otp-sidebar.mobile-active { right: 0; }
+
+  /* On mobile, collapsed class doesn't hide list */
+  .otp-sidebar.is-collapsed .otp-sidebar__list { display: block; }
+
+  .otp-sidebar__close {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #666;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 18px;
+    line-height: 1;
+  }
+
+  .otp-touch-handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 52px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    box-shadow: -2px 0 8px rgba(0,0,0,0.06);
+    cursor: pointer;
+    z-index: 999;
+    color: #888;
+    font-size: 10px;
+    writing-mode: vertical-lr;
+    letter-spacing: 0.06em;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  html.dark-mode .otp-touch-handle { background: #222; border-color: #444; color: #aaa; }
+
+  .otp-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.22);
+    z-index: 998;
+    backdrop-filter: blur(1px);
+  }
+  .otp-overlay.active { display: block; }
+}
+
+@media (min-width: 1025px) {
+  .otp-sidebar__close,
+  .otp-touch-handle { display: none !important; }
+}
+
+/* Suppress old layout regions */
+.layout__region--sidebar-content { display: block !important; width: 100% !important; }
+.layout-paragraphs-two-column { display: block !important; }
+.layout__region--sidebar { display: none !important; }
+.layout__region--main { display: block !important; width: 100% !important; }
+
+/* ============================================================
+   MOBILE TYPOGRAPHY & LAYOUT FIXES
+============================================================ */
+
+/* Prevent long URLs/words from breaking layout on small screens */
+@media (max-width: 768px) {
+  .su-wysiwyg-text a,
+  .slinks-indent a {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Tighter heading spacing on phone */
+  .su-wysiwyg-text h3 {
+    font-size: 1.15em;
+    margin-top: 1.4em;
+  }
+
+  /* Slightly more indent breathing room on small screens */
+  .slinks-indent {
+    padding-left: 0;
+  }
+
+  /* Ensure banner image scales */
+  .su-hero__media img,
+  .su-hero__media picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Main page heading */
+  h1 {
+    font-size: 1.6em;
+  }
+}
+
+/* Touch handle only shows on mobile (already handled above, but ensure it
+   doesn't appear at tablet widths where sidebar is hidden off-screen) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .otp-touch-handle {
+    display: flex !important;
+  }
+}
+

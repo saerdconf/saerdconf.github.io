@@ -1,0 +1,1478 @@
+/*
+ * Dark Mode styles — kosalnith.github.io
+ * Palette: bg #141413 | text #f7f6f3 | accent #8c1514
+ */
+
+/* ═══════════════════════════════════════════════════════════════
+   TOGGLE LI — strip nav link styling from our container li
+   ═══════════════════════════════════════════════════════════════ */
+
+li.dm-toggle-li {
+  display: inline-flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+/* On desktop: match the 36px right-margin gap of other nav items */
+@media only screen and (min-width: 992px) {
+  li.dm-toggle-li {
+    margin: 0 36px 0 0 !important;
+    align-self: center !important;
+  }
+}
+
+/* On mobile, show inside the open dropdown */
+@media (max-width: 991px) {
+  /* ── Dark mode toggle li — match nav item style ── */
+  li.dm-toggle-li {
+    display: flex !important;
+    align-items: center !important;
+    padding: 1.2rem 2.4rem !important;
+    border-bottom: 1px solid #53565a !important;
+  }
+
+  html.dark-mode li.dm-toggle-li {
+    border-bottom-color: #3a3836 !important;
+  }
+
+  /* ── Dark mode toggle button — icon only, no label, no border box ── */
+  li.dm-toggle-li .dm-toggle {
+    width: 28px !important;
+    height: 28px !important;
+    border: none !important;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #f7f6f3 !important;
+  }
+
+  html.dark-mode li.dm-toggle-li .dm-toggle {
+    color: #f7f6f3 !important;
+  }
+
+  li.dm-toggle-li .dm-toggle:hover,
+  li.dm-toggle-li .dm-toggle:focus {
+    background: rgba(255,255,255,0.1) !important;
+    border: none !important;
+    outline: none !important;
+  }
+
+  /* No text label — icon only */
+  li.dm-toggle-li .dm-toggle::after {
+    content: none !important;
+  }
+
+  /* Icon clearly visible at nav scale */
+  li.dm-toggle-li .dm-icon svg {
+    width: 22px !important;
+    height: 22px !important;
+    stroke: currentColor !important;
+  }
+
+  /* ── Search li — match nav item style ── */
+  .su-multi-menu .su-multi-menu__menu-lv1 li:has(#site-search-btn) {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #53565a !important;
+  }
+
+  html.dark-mode .su-multi-menu .su-multi-menu__menu-lv1 li:has(#site-search-btn) {
+    border-bottom-color: #3a3836 !important;
+  }
+
+  /* ── Search button — strip pill, look like a nav link ── */
+  #site-search-btn {
+    width: 100% !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 1.2rem 2.4rem !important;
+    background: transparent !important;
+    color: inherit !important;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    gap: 12px !important;
+    justify-content: flex-start !important;
+    box-shadow: none !important;
+  }
+
+  #site-search-btn:hover {
+    background: rgba(140, 21, 21, 0.06) !important;
+    border: none !important;
+  }
+
+  #site-search-btn span {
+    color: inherit !important;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+  }
+
+  html.dark-mode #site-search-btn {
+    color: #dddddd !important;
+  }
+
+  html.dark-mode #site-search-btn span {
+    color: #dddddd !important;
+  }
+
+  /* ── Mobile ordering: search above dark/light mode toggle ──
+     These order rules guarantee correct order regardless of
+     JS injection timing.                                        */
+  .su-multi-menu .su-multi-menu__menu-lv1 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .su-multi-menu .su-multi-menu__menu-lv1 li:has(#site-search-btn) {
+    order: 98 !important;
+  }
+
+  .su-multi-menu .su-multi-menu__menu-lv1 li.dm-toggle-li {
+    order: 99 !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SEARCH BUTTON — move to the left of the nav row
+   The search <li> is injected by search.js as .su-mobile-site-search
+   or a search-block <li>. We use order to push it before the other
+   items while keeping the <ul> flex layout intact.
+   ═══════════════════════════════════════════════════════════════ */
+
+@media only screen and (min-width: 992px) {
+  /* Make the nav <ul> a flex row (it already is, this ensures order works) */
+  .su-multi-menu .su-multi-menu__menu-lv1 {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  /* Push the search li to the far left */
+  .su-multi-menu .su-multi-menu__menu-lv1 li.su-mobile-site-search,
+  .su-multi-menu .su-multi-menu__menu-lv1 li.dm-search-li,
+  .su-multi-menu .su-multi-menu__menu-lv1 li:has(.su-site-search),
+  .su-multi-menu .su-multi-menu__menu-lv1 li:has([class*="search"]) {
+    order: -1 !important;
+    margin: 0 36px 0 0 !important;
+  }
+
+  /* All other nav items keep their natural order */
+  .su-multi-menu .su-multi-menu__menu-lv1 > .su-multi-menu__item {
+    order: 0 !important;
+  }
+
+  /* Dark mode toggle — left gap matches other nav item spacing */
+  .su-multi-menu .su-multi-menu__menu-lv1 > li.dm-toggle-li {
+    order: 1 !important;
+    margin: 0 0 0 36px !important;
+    align-self: center !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TOGGLE BUTTON  (always present, both modes)
+   ═══════════════════════════════════════════════════════════════ */
+
+.dm-toggle {
+  /* Reset the site's global button styles */
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 34px !important;
+  height: 34px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  border: 1.5px solid #767270 !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  color: #2e2d29 !important;
+  box-shadow: none !important;
+  font-size: 0 !important;         /* hide any text */
+  line-height: 1 !important;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease !important;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.dm-toggle:hover,
+.dm-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+  border-color: #2e2d29 !important;
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+.dm-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  line-height: 1;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   LOCKUP — "Kosal | Nith." inline on one line (light + dark)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* "Kosal" color */
+.su-lockup__wordmark {
+  color: #a60101 !important;
+}
+
+/* Root cause:
+   - .su-lockup--option-a > a has flex-direction:column (no MQ)
+     which overrides the row set by .su-lockup > a at 768px
+   - .su-lockup--option-a .su-lockup__cell2 has order:3
+     which pushes "Nith." below "Kosal"
+
+   Use the ID for highest specificity to win the cascade.        */
+@media only screen and (min-width: 768px) {
+  #block-stanford-basic-branding.su-lockup--option-a > a {
+    display: flex !important;
+    flex-direction: row !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    align-items: flex-end !important;
+    flex-wrap: nowrap !important;
+  }
+
+  #block-stanford-basic-branding .su-lockup__cell2 {
+    -webkit-box-ordinal-group: 2 !important;
+    -ms-flex-order: 1 !important;
+    order: 1 !important;
+    align-self: flex-end !important;
+  }
+
+  #block-stanford-basic-branding .su-lockup__cell1 {
+    align-self: flex-end !important;
+  }
+}
+
+.dm-icon svg {
+  display: block;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   DARK MODE OVERRIDES  (html.dark-mode prefix on everything)
+   ═══════════════════════════════════════════════════════════════ */
+
+html.dark-mode {
+  --dm-bg:        #141413;
+  --dm-bg-alt:    #1e1d1c;
+  --dm-bg-card:   #242322;
+  --dm-bg-nav:    #1a1918;
+  --dm-text:      #D6D6D6;
+  --dm-text-mute: #dcdad8;
+  --dm-accent:    #8c1514;
+  --dm-accent-lt: #c04040;
+  --dm-border:    #3a3836;
+
+  /* Links throughout the page use the accent red in dark mode */
+  --dm-link:       #cc2222;
+  --dm-link-hover: #ff6600;
+}
+
+/* ── Page base ─────────────────────────────────────────────────── */
+html.dark-mode,
+html.dark-mode body {
+  background-color: var(--dm-bg) !important;
+  color: var(--dm-text) !important;
+}
+
+/* ── Masthead ──────────────────────────────────────────────────── */
+html.dark-mode .su-masthead {
+  background-color: var(--dm-bg-nav) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.55) !important;
+}
+
+html.dark-mode .su-masthead > section:last-of-type {
+  background-color: var(--dm-bg-nav) !important;
+}
+
+/* Brand bar */
+html.dark-mode .su-brand-bar {
+  background-color: var(--dm-accent) !important;
+}
+
+/* Lockup text */
+html.dark-mode .su-lockup__wordmark {
+  color: #a60101 !important;
+}
+html.dark-mode .su-lockup__line1,
+html.dark-mode .su-lockup__line2,
+html.dark-mode .su-lockup__line3,
+html.dark-mode .su-lockup__line4,
+html.dark-mode .su-lockup__line5 {
+  color: var(--dm-text) !important;
+}
+html.dark-mode .su-lockup__cell1,
+html.dark-mode .su-lockup__cell2 {
+  border-color: var(--dm-border) !important;
+}
+
+/* ── Navigation ────────────────────────────────────────────────── */
+html.dark-mode .su-multi-menu .su-multi-menu__menu,
+html.dark-mode .su-multi-menu .su-multi-menu__menu-lv1 {
+  background-color: var(--dm-bg-nav) !important;
+}
+
+html.dark-mode .su-multi-menu .su-multi-menu__menu .su-multi-menu__link {
+  color: var(--dm-text) !important;
+  border-bottom-color: var(--dm-border) !important;
+}
+
+html.dark-mode .su-multi-menu .su-multi-menu__menu .su-multi-menu__link:hover,
+html.dark-mode .su-multi-menu .su-multi-menu__menu .su-multi-menu__link:focus {
+  color: var(--dm-text) !important;
+}
+
+/* Top-level desktop nav items */
+@media only screen and (min-width: 992px) {
+  html.dark-mode .su-multi-menu .su-multi-menu__menu-lv1 > .su-multi-menu__item > .su-multi-menu__link {
+    color: var(--dm-text) !important;
+    border-bottom-color: var(--dm-border) !important;
+  }
+
+  html.dark-mode .su-multi-menu .su-multi-menu__menu-lv1 > .su-multi-menu__item > .su-multi-menu__link:hover,
+  html.dark-mode .su-multi-menu .su-multi-menu__menu-lv1 > .su-multi-menu__item > .su-multi-menu__link:focus {
+    color: var(--dm-accent-lt) !important;
+  }
+
+  html.dark-mode .su-multi-menu .su-multi-menu__menu-lv1 > .su-multi-menu__item--current > .su-multi-menu__link,
+  html.dark-mode .su-multi-menu .su-multi-menu__menu-lv1 > .su-multi-menu__item--active-trail > .su-multi-menu__link {
+    color: var(--dm-text) !important;
+  }
+}
+
+/* Hamburger toggle icon */
+html.dark-mode .su-multi-menu__nav-toggle {
+  color: var(--dm-text) !important;
+}
+
+/* Search input */
+html.dark-mode .su-site-search__input {
+  background-color: var(--dm-bg-alt) !important;
+  color: var(--dm-text) !important;
+  border-color: var(--dm-border) !important;
+}
+html.dark-mode .su-site-search__input::placeholder {
+  color: var(--dm-text-mute) !important;
+  opacity: 1;
+}
+html.dark-mode .su-site-search__submit {
+  filter: invert(0.8) !important;
+}
+
+/* Search button styling in dark mode */
+html.dark-mode .su-site-search {
+  background-color: transparent !important;
+}
+
+/* ── Links — apply dark color to all anchors, override exceptions ── */
+/* Inverted pattern: fewer :not() = faster style matching.            */
+html.dark-mode a {
+  color: var(--dm-link) !important;
+}
+
+html.dark-mode a:hover,
+html.dark-mode a:focus {
+  color: var(--dm-link-hover) !important;
+}
+
+/* Exceptions: buttons, nav, footer — override back to their own colors */
+html.dark-mode a.button,
+html.dark-mode a.su-button,
+html.dark-mode a.su-button--big,
+html.dark-mode a.su-button--secondary {
+  color: #f7f6f3 !important;
+}
+
+html.dark-mode a.button:hover,
+html.dark-mode a.button:focus,
+html.dark-mode a.su-button:hover,
+html.dark-mode a.su-button:focus,
+html.dark-mode a.su-button--big:hover,
+html.dark-mode a.su-button--big:focus {
+  color: #f7f6f3 !important;
+}
+
+/* Nav links should NOT use the red accent — override back to text */
+html.dark-mode .su-multi-menu a,
+html.dark-mode .su-multi-menu .su-multi-menu__link,
+html.dark-mode .su-brand-bar a,
+html.dark-mode .su-global-footer a,
+html.dark-mode .su-local-footer a {
+  color: inherit !important;
+}
+
+html.dark-mode .su-multi-menu a:hover,
+html.dark-mode .su-multi-menu .su-multi-menu__link:hover,
+html.dark-mode .su-multi-menu a:focus,
+html.dark-mode .su-multi-menu .su-multi-menu__link:focus {
+  color: var(--dm-accent-lt) !important;
+}
+
+/* ── Body / content ────────────────────────────────────────────── */
+html.dark-mode main,
+html.dark-mode .page-content,
+html.dark-mode #page-content,
+html.dark-mode .node,
+html.dark-mode .block-system,
+html.dark-mode .paragraph-item,
+html.dark-mode .ptype-stanford-layout,
+html.dark-mode .layout,
+html.dark-mode .layout__region,
+html.dark-mode .jumpstart-ui--one-column,
+html.dark-mode .main-region,
+html.dark-mode .content,
+html.dark-mode .field-block,
+html.dark-mode .dialog-off-canvas-main-canvas {
+  background-color: var(--dm-bg) !important;
+  color: var(--dm-text) !important;
+}
+
+/* ── Typography ────────────────────────────────────────────────── */
+html.dark-mode h1, html.dark-mode h2,
+html.dark-mode h3, html.dark-mode h4,
+html.dark-mode h5, html.dark-mode h6 {
+  color: var(--dm-text) !important;
+}
+
+html.dark-mode p {
+  color: var(--dm-text) !important;
+}
+
+/* ── Cards ─────────────────────────────────────────────────────── */
+html.dark-mode .su-card {
+  background-color: var(--dm-bg-card) !important;
+  border-color: var(--dm-border) !important;
+  color: var(--dm-text) !important;
+}
+
+/* ── Tables ────────────────────────────────────────────────────── */
+html.dark-mode table tbody tr,
+html.dark-mode table thead tr,
+html.dark-mode table thead + tbody {
+  border-color: var(--dm-border) !important;
+}
+
+html.dark-mode table th,
+html.dark-mode table td {
+  color: var(--dm-text) !important;
+}
+
+/* ── Footer ────────────────────────────────────────────────────── */
+html.dark-mode .su-local-footer {
+  background-color: var(--dm-bg-nav) !important;
+  color: #ffffff !important;
+}
+
+html.dark-mode .su-local-footer *,
+html.dark-mode .su-local-footer a,
+html.dark-mode .su-local-footer a:hover,
+html.dark-mode .su-local-footer a:focus {
+  color: #ffffff !important;
+}
+
+html.dark-mode .su-global-footer {
+  background-color: var(--dm-accent) !important;
+  color: #ffffff !important;
+}
+
+html.dark-mode .su-global-footer *,
+html.dark-mode .su-global-footer a,
+html.dark-mode .su-global-footer a:hover,
+html.dark-mode .su-global-footer a:focus,
+html.dark-mode .su-global-footer__copyright {
+  color: #ffffff !important;
+}
+
+/* Bottom <footer> element (copyright, social icons, nav links) */
+html.dark-mode footer,
+html.dark-mode footer *,
+html.dark-mode footer a,
+html.dark-mode footer a:hover,
+html.dark-mode footer a:focus {
+  color: #ffffff !important;
+}
+
+/* ── Inputs ────────────────────────────────────────────────────── */
+html.dark-mode input,
+html.dark-mode select,
+html.dark-mode textarea {
+  background-color: var(--dm-bg-alt) !important;
+  color: var(--dm-text) !important;
+  border-color: var(--dm-border) !important;
+}
+
+/* ── Captions ──────────────────────────────────────────────────── */
+html.dark-mode .su-media__caption,
+html.dark-mode .su-caption,
+html.dark-mode .su-credits {
+  color: var(--dm-text-mute) !important;
+}
+
+/* ── Red buttons — force light text so it stays legible ─────── */
+/* The site's own red buttons (su-button, generic buttons).      */
+/* Note: the Twitter/X "Follow" button is an iframe widget from  */
+/* Twitter — its internal text colour cannot be changed via CSS. */
+html.dark-mode [type=button],
+html.dark-mode [type=submit],
+html.dark-mode [type=image],
+html.dark-mode button,
+html.dark-mode .su-button,
+html.dark-mode .su-button--big,
+html.dark-mode .su-button--secondary,
+html.dark-mode .su-cta .su-cta__button {
+  color: #f7f6f3 !important;
+}
+
+/* Exclude the dark-mode toggle itself (transparent bg — no need) */
+html.dark-mode .dm-toggle {
+  color: #f7f6f3 !important;
+  border-color: #b8b4ae !important;
+}
+
+html.dark-mode .dm-toggle:hover,
+html.dark-mode .dm-toggle:focus {
+  background-color: rgba(247,246,243,0.1) !important;
+  border-color: #f7f6f3 !important;
+}
+
+/* ── Smooth transitions ────────────────────────────────────────── */
+/* Scoped only to structural elements that actually change on theme toggle.
+   Removed: html, body, a — applying transitions globally to every anchor
+   forces the browser to evaluate them on every interaction across the page. */
+.su-masthead,
+.su-brand-bar,
+.su-local-footer,
+.su-global-footer,
+.su-card {
+  transition: background-color 0.3s ease, border-color 0.3s ease !important;
+}
+
+/* Nav links get a targeted hover transition only — not a global one */
+.su-multi-menu .su-multi-menu__link {
+  transition: color 0.15s ease !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PANEL / HIGHLIGHT TEMPLATE
+   Used by personal.html, work.html, friends.html, explore.html
+   and any page built with section.panel + div.highlight layout.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Page & section backgrounds ────────────────────────────────── */
+html.dark-mode section.panel,
+html.dark-mode section.panel.theme--white,
+html.dark-mode .grid-container,
+html.dark-mode section.highlight {
+  background-color: var(--dm-bg) !important;
+  color: var(--dm-text) !important;
+}
+
+/* ── Section header text ────────────────────────────────────────── */
+html.dark-mode section.panel > header,
+html.dark-mode section.panel > header h2,
+html.dark-mode section.panel > header p {
+  background-color: var(--dm-bg) !important;
+  color: var(--dm-text) !important;
+}
+
+/* ── Highlight card headings & body text ────────────────────────── */
+html.dark-mode section.highlight h3,
+html.dark-mode section.highlight p,
+html.dark-mode section.highlight span {
+  color: var(--dm-text) !important;
+}
+
+/* ── Jump links (the "Read more ›" style links) ─────────────────── */
+html.dark-mode .highlight-link a.jump-link,
+html.dark-mode a.jump-link {
+  color: var(--dm-accent-lt) !important;
+}
+
+html.dark-mode .highlight-link a.jump-link:hover,
+html.dark-mode a.jump-link:hover {
+  color: var(--dm-link-hover) !important;
+}
+
+/* ── Figure captions inside highlights ─────────────────────────── */
+html.dark-mode section.highlight figcaption,
+html.dark-mode section.highlight .su-media__caption {
+  color: var(--dm-text-mute) !important;
+}
+
+/* ── Any explicit white/light background overrides in the template ── */
+html.dark-mode [class*="theme--white"],
+html.dark-mode [class*="theme--light"] {
+  background-color: var(--dm-bg) !important;
+  color: var(--dm-text) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RESEARCH PAGE TEMPLATE
+   Used by research.html — custom research.css classes
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Page & container backgrounds ──────────────────────────────── */
+html.dark-mode .research-container,
+html.dark-mode .research-sidebar,
+html.dark-mode .main-content,
+html.dark-mode .two-columns,
+html.dark-mode .search-section,
+html.dark-mode #pubListView,
+html.dark-mode #pubDetailView,
+html.dark-mode .detail-container,
+html.dark-mode .detail-main,
+html.dark-mode .detail-sidebar {
+  background-color: var(--dm-bg) !important;
+  color: var(--dm-text) !important;
+}
+
+/* ── Research title & headings ──────────────────────────────────── */
+html.dark-mode .research-title,
+html.dark-mode .research-header,
+html.dark-mode .search-heading,
+html.dark-mode .search-subtext,
+html.dark-mode .sort-bar,
+html.dark-mode .result-count,
+html.dark-mode .detail-nav-row,
+html.dark-mode .detail-breadcrumb {
+  color: var(--dm-text) !important;
+  background-color: transparent !important;
+}
+html.dark-mode .filter-section-label,
+html.dark-mode .filter-heading {
+  color: var(--dm-text) !important;
+  background-color: transparent !important;
+}
+
+/* ── Type pills (Journal article, Working paper…) ───────────────── */
+html.dark-mode .type-pill {
+  background-color: transparent !important;
+  color: var(--dm-text) !important;
+  border-color: transparent !important;
+}
+
+html.dark-mode .type-pill:hover {
+  background-color: rgba(255,255,255,.05) !important;
+  border-color: var(--dm-border) !important;
+}
+
+html.dark-mode .type-pill.active {
+  background-color: transparent !important;
+  border-bottom-color: #b1040e !important;
+  border-color: transparent !important;
+  border-bottom-color: #b1040e !important;
+}
+
+html.dark-mode .pill-number,
+html.dark-mode .pill-label {
+  color: inherit !important;
+}
+
+/* ── More dropdown ──────────────────────────────────────────────── */
+html.dark-mode .more-dropdown,
+html.dark-mode .more-item {
+  background-color: var(--dm-bg-card) !important;
+  color: var(--dm-text) !important;
+  border-color: var(--dm-border) !important;
+}
+
+html.dark-mode .more-item:hover {
+  background-color: var(--dm-bg-alt) !important;
+}
+
+/* ── Filter sidebar ─────────────────────────────────────────────── */
+html.dark-mode .filter-group {
+  background-color: transparent !important;
+  border-color: var(--dm-border) !important;
+  color: var(--dm-text) !important;
+}
+
+html.dark-mode .custom-check,
+html.dark-mode .custom-check-left,
+html.dark-mode .custom-check span {
+  color: var(--dm-text) !important;
+}
+
+html.dark-mode .check-box {
+  border-color: var(--dm-border) !important;
+  background-color: var(--dm-bg-alt) !important;
+}
+
+html.dark-mode .count-badge {
+  color: var(--dm-text-mute) !important;
+}
+
+html.dark-mode .show-more-btn,
+html.dark-mode .toggle-sdg,
+html.dark-mode .toggle-type {
+  color: var(--dm-accent-lt) !important;
+  background: none !important;
+}
+
+/* ── Year range slider ──────────────────────────────────────────── */
+html.dark-mode .year-track-outer,
+html.dark-mode .year-track {
+  background-color: var(--dm-border) !important;
+}
+
+html.dark-mode .year-fill {
+  background-color: var(--dm-accent-lt) !important;
+}
+
+html.dark-mode .year-minmax {
+  color: var(--dm-text-mute) !important;
+}
+
+/* ── Search input ───────────────────────────────────────────────── */
+html.dark-mode .search-input-wrapper {
+  background-color: var(--dm-bg-alt) !important;
+  border-color: var(--dm-border) !important;
+  color: var(--dm-text) !important;
+}
+
+html.dark-mode .search-input-wrapper i {
+  color: var(--dm-text-mute) !important;
+}
+
+html.dark-mode #searchInput {
+  background-color: var(--dm-bg-alt) !important;
+  color: var(--dm-text) !important;
+}
+
+html.dark-mode #searchInput::placeholder {
+  color: var(--dm-text-mute) !important;
+}
+
+html.dark-mode .search-btn {
+  background-color: var(--dm-accent) !important;
+  color: #f7f6f3 !important;
+  border-color: var(--dm-accent) !important;
+}
+
+/* ── Sort bar & links ───────────────────────────────────────────── */
+html.dark-mode .sort-link,
+html.dark-mode .export-link {
+  color: var(--dm-accent-lt) !important;
+}
+
+/* ── Publication cards (rendered by research_app.js) ───────────── */
+html.dark-mode .pub-card,
+html.dark-mode .pub-item,
+html.dark-mode [class*="pub-"] {
+  background-color: var(--dm-bg-card) !important;
+  border-color: var(--dm-border) !important;
+  color: var(--dm-text) !important;
+}
+
+/* pub-resources is a flex container — must stay transparent */
+html.dark-mode .pub-resources,
+html.dark-mode .research-container .pub-resources {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+html.dark-mode .pub-card:hover,
+html.dark-mode .pub-item:hover {
+  border-color: var(--dm-accent-lt) !important;
+}
+
+html.dark-mode .pub-title,
+html.dark-mode [class*="pub-title"] {
+  color: var(--dm-text) !important;
+}
+
+html.dark-mode .pub-authors,
+html.dark-mode .pub-journal,
+html.dark-mode .pub-year,
+html.dark-mode .pub-meta,
+html.dark-mode [class*="pub-meta"],
+html.dark-mode [class*="pub-author"],
+html.dark-mode [class*="pub-year"] {
+  color: #d6d6d6 !important;
+}
+
+/* Publication outlet (italic journal/venue line) */
+html.dark-mode .pub-outlet,
+html.dark-mode .research-container .pub-outlet,
+html.dark-mode .research-container .pub-outlet em {
+  color: #d6d6d6 !important;
+}
+
+/* Abstract toggle button and hint text */
+html.dark-mode .research-container .abstract-toggle-btn,
+html.dark-mode body .research-container button.abstract-toggle-btn,
+html.dark-mode .research-container .abstract-hint {
+  color: #d6d6d6 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+html.dark-mode .pub-tag,
+html.dark-mode .pub-badge,
+html.dark-mode [class*="pub-tag"],
+html.dark-mode [class*="pub-badge"] {
+  background-color: var(--dm-bg-alt) !important;
+  color: var(--dm-text-mute) !important;
+  border-color: var(--dm-border) !important;
+}
+
+/* ── Pagination ─────────────────────────────────────────────────── */
+html.dark-mode .pagination {
+  background-color: transparent !important;
+}
+html.dark-mode .pagination button,
+html.dark-mode .pagination a {
+  background-color: transparent !important;
+  color: var(--dm-text) !important;
+  border-color: var(--dm-border) !important;
+}
+
+html.dark-mode .pagination .active,
+html.dark-mode .pagination button.active {
+  background-color: var(--dm-accent) !important;
+  color: #f7f6f3 !important;
+}
+
+/* ── Mobile filter bar ──────────────────────────────────────────── */
+html.dark-mode .mobile-filter-bar {
+  background-color: transparent !important;
+  border-color: var(--dm-border) !important;
+}
+html.dark-mode body button.mobile-filter-toggle,
+html.dark-mode .mobile-filter-toggle {
+  background-color: #1e2a3e !important;
+  background: #1e2a3e !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-size: 1.5rem !important;
+  font-weight: 650 !important;
+  cursor: pointer !important;
+  letter-spacing: 0.02em !important;
+  box-shadow: 0 2px 10px rgba(30,42,62,0.35) !important;
+  transition: background 0.15s, transform 0.15s !important;
+}
+html.dark-mode body button.mobile-filter-toggle:hover,
+html.dark-mode .mobile-filter-toggle:hover {
+  background-color: #b1040e !important;
+  background: #b1040e !important;
+  color: #fff !important;
+  transform: translateY(-1px) !important;
+}
+
+html.dark-mode .mobile-filter-badge {
+  background-color: var(--dm-accent) !important;
+  color: #f7f6f3 !important;
+}
+
+html.dark-mode .mobile-result-count {
+  color: var(--dm-text-mute) !important;
+}
+
+/* ── Filter backdrop ────────────────────────────────────────────── */
+html.dark-mode .filter-backdrop.active {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* ── Back link ──────────────────────────────────────────────────── */
+html.dark-mode .back-link {
+  color: var(--dm-accent-lt) !important;
+}
+
+/* ── Research / Activity sidebar toggle button — override mainformat.css button{background:#b1040e} ── */
+html.dark-mode body .research-sidebar .sidebar-toggle-btn,
+html.dark-mode body button.sidebar-toggle-btn {
+  background-color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+  border-top: 1px solid var(--dm-border) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: var(--dm-text-mute) !important;
+  padding: 8px 0 !important;
+  margin-bottom: 1rem !important;
+}
+html.dark-mode body .research-sidebar .sidebar-toggle-btn:hover,
+html.dark-mode body button.sidebar-toggle-btn:hover {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #e05555 !important;
+  text-decoration: none !important;
+}
+html.dark-mode body .research-sidebar .sidebar-toggle-btn i {
+  color: #e05555 !important;
+}
+
+/* ── Research sidebar header — remove card background ── */
+html.dark-mode .filter-sidebar-header,
+html.dark-mode .research-sidebar .filter-sidebar-header {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* ── Filter close button — override mainformat.css button{background:#b1040e} ── */
+html.dark-mode body .research-sidebar .filter-close-btn,
+html.dark-mode body button.filter-close-btn {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: var(--dm-text-mute) !important;
+}
+html.dark-mode body .research-sidebar .filter-close-btn:hover,
+html.dark-mode body button.filter-close-btn:hover {
+  background: rgba(224,85,85,.15) !important;
+  color: #e05555 !important;
+}
+
+/* ── Active filter chip × button — override mainformat.css button{background:#b1040e} ──
+   The box visible in dark mode around the × is mainformat.css's red button background
+   bleeding through. This rule beats it using body + class specificity.             ── */
+html.dark-mode body button.chip-clear-btn,
+html.dark-mode body .chip-clear-btn {
+  background: rgba(240,84,26,.2) !important;
+  background-color: rgba(240,84,26,.2) !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #f07050 !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+html.dark-mode body button.chip-clear-btn:hover,
+html.dark-mode body .chip-clear-btn:hover {
+  background: rgba(240,84,26,.4) !important;
+  background-color: rgba(240,84,26,.4) !important;
+}
+
+/* ── Year range slider — remove track background box in dark mode ── */
+html.dark-mode .research-container .year-track,
+html.dark-mode .research-container .year-track-outer,
+html.dark-mode .research-container .year-slider-wrap {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+html.dark-mode .research-container .year-track {
+  background: #3a3836 !important;
+}
+html.dark-mode .research-container input[type="range"] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+html.dark-mode .research-container input[type="range"]::-webkit-slider-runnable-track {
+  background: transparent !important;
+}
+html.dark-mode .research-container input[type="range"]::-webkit-slider-thumb {
+  background: #2a2826 !important;
+  border-color: #b1040e !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,.4) !important;
+}
+html.dark-mode .research-container input[type="range"]::-moz-range-track {
+  background: transparent !important;
+}
+html.dark-mode .research-container input[type="range"]::-moz-range-thumb {
+  background: #2a2826 !important;
+  border-color: #b1040e !important;
+}
+
+/* ── Activity page — unlinked title + date, location, type text ── */
+html.dark-mode .research-container span.activity-title {
+  color: #d6d6d6 !important;
+}
+
+html.dark-mode .research-container .activity-date,
+html.dark-mode .research-container .activity-date span,
+html.dark-mode .research-container .activity-date .activity-icon,
+html.dark-mode .research-container .activity-location,
+html.dark-mode .research-container .activity-location span,
+html.dark-mode .research-container .activity-location .activity-icon,
+html.dark-mode .research-container .activity-type-line,
+html.dark-mode .research-container .activity-type-line span,
+html.dark-mode .research-container .activity-type-line i {
+  color: #d6d6d6 !important;
+}
+
+/* ── Activity sort + export buttons ── */
+html.dark-mode body .research-container .sort-btn,
+html.dark-mode body button.sort-btn {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: rgba(177,4,14,.35) !important;
+  color: #e05555 !important;
+}
+html.dark-mode body .research-container .sort-btn:hover,
+html.dark-mode body button.sort-btn:hover {
+  background: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+}
+html.dark-mode body .research-container .export-btn,
+html.dark-mode body button.export-btn {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: rgba(31,74,124,.4) !important;
+  color: #6ea8d8 !important;
+}
+html.dark-mode body .research-container .export-btn:hover,
+html.dark-mode body button.export-btn:hover {
+  background: #1f4a7c !important;
+  color: #fff !important;
+  border-color: #1f4a7c !important;
+}
+
+/* ── Research sort + export buttons ── */
+html.dark-mode body .sort-link,
+html.dark-mode body .sort-btn,
+html.dark-mode body a.sort-link,
+html.dark-mode body button.sort-btn {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: rgba(177,4,14,.35) !important;
+  color: #e05555 !important;
+}
+html.dark-mode body .sort-link:hover,
+html.dark-mode body .sort-btn:hover {
+  background: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+}
+html.dark-mode body .export-link,
+html.dark-mode body .export-btn,
+html.dark-mode body a.export-link,
+html.dark-mode body button.export-btn {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: rgba(31,74,124,.4) !important;
+  color: #6ea8d8 !important;
+}
+html.dark-mode body .export-link:hover,
+html.dark-mode body .export-btn:hover {
+  background: #1f4a7c !important;
+  color: #fff !important;
+  border-color: #1f4a7c !important;
+}
+
+/* ── Resource buttons (Paper, Slides, Replication, Thread, Appendix…) ── */
+html.dark-mode .research-container .resource-btn--paper {
+  background: rgba(177,4,14,.12) !important;
+  border-color: rgba(177,4,14,.35) !important;
+  color: #e05555 !important;
+}
+html.dark-mode .research-container .resource-btn--paper:hover {
+  background: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+}
+html.dark-mode .research-container .resource-btn--slides {
+  background: rgba(26,95,168,.12) !important;
+  border-color: rgba(26,95,168,.35) !important;
+  color: #6ea8d8 !important;
+}
+html.dark-mode .research-container .resource-btn--slides:hover {
+  background: #1a5fa8 !important;
+  color: #fff !important;
+  border-color: #1a5fa8 !important;
+}
+html.dark-mode .research-container .resource-btn--replication {
+  background: rgba(26,122,69,.12) !important;
+  border-color: rgba(26,122,69,.35) !important;
+  color: #4db87a !important;
+}
+html.dark-mode .research-container .resource-btn--replication:hover {
+  background: #1a7a45 !important;
+  color: #fff !important;
+  border-color: #1a7a45 !important;
+}
+html.dark-mode .research-container .resource-btn--thread {
+  background: rgba(255,255,255,.06) !important;
+  border-color: rgba(255,255,255,.2) !important;
+  color: #d6d6d6 !important;
+}
+html.dark-mode .research-container .resource-btn--thread:hover {
+  background: #333 !important;
+  color: #fff !important;
+  border-color: #555 !important;
+}
+html.dark-mode .research-container .resource-btn--appendix {
+  background: rgba(107,33,168,.12) !important;
+  border-color: rgba(107,33,168,.35) !important;
+  color: #c084fc !important;
+}
+html.dark-mode .research-container .resource-btn--appendix:hover {
+  background: #6b21a8 !important;
+  color: #fff !important;
+  border-color: #6b21a8 !important;
+}
+html.dark-mode .research-container .resource-btn--video,
+html.dark-mode .research-container .resource-btn--published,
+html.dark-mode .research-container .resource-btn--default {
+  background: rgba(255,255,255,.06) !important;
+  border-color: rgba(255,255,255,.15) !important;
+  color: #d6d6d6 !important;
+}
+html.dark-mode .research-container .resource-btn--video:hover,
+html.dark-mode .research-container .resource-btn--published:hover,
+html.dark-mode .research-container .resource-btn--default:hover {
+  background: rgba(255,255,255,.14) !important;
+  color: #fff !important;
+}
+
+/* ── Activity resource buttons in dark mode ── */
+html.dark-mode .research-container .resource-btn--video,
+html.dark-mode body button.resource-btn--video {
+  background: rgba(14,116,144,.12) !important;
+  background-color: rgba(14,116,144,.12) !important;
+  border-color: rgba(14,116,144,.35) !important;
+  color: #5ec8e0 !important;
+}
+html.dark-mode .research-container .resource-btn--video:hover {
+  background: #0e7490 !important;
+  color: #fff !important;
+  border-color: #0e7490 !important;
+}
+
+/* ── Activity pub-resources row — remove dark background ── */
+html.dark-mode .research-container .pub-resources,
+html.dark-mode body .research-container .pub-resources {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* ── Publication detail page ─────────────────────────────────── */
+
+/* PREV / NEXT nav buttons */
+html.dark-mode body .detail-nav-btn,
+html.dark-mode body button.detail-nav-btn {
+  background: #1e1c1a !important;
+  background-color: #1e1c1a !important;
+  border-color: #3a3836 !important;
+  color: #e05555 !important;
+}
+html.dark-mode .detail-nav-btn .nav-label {
+  color: #666 !important;
+}
+html.dark-mode body .detail-nav-btn:hover:not(.disabled),
+html.dark-mode body button.detail-nav-btn:hover:not(.disabled) {
+  background: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+}
+html.dark-mode .detail-nav-btn:hover:not(.disabled) .nav-label {
+  color: rgba(255,255,255,0.75) !important;
+}
+
+/* All publications button */
+html.dark-mode body .detail-back-btn,
+html.dark-mode body button.detail-back-btn,
+html.dark-mode body a.detail-back-btn {
+  background: #b1040e !important;
+  background-color: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+}
+
+/* Tab bar */
+html.dark-mode .detail-tab-bar {
+  border-bottom-color: #3a3836 !important;
+}
+html.dark-mode .detail-tab {
+  color: #888 !important;
+  background: transparent !important;
+}
+html.dark-mode .detail-tab.active {
+  color: #e05555 !important;
+  border-bottom-color: #e05555 !important;
+}
+
+/* Alternating table rows */
+html.dark-mode .detail-meta-table tr:nth-child(even) td {
+  background: #1e1c1a !important;
+}
+html.dark-mode .detail-meta-table tr:nth-child(odd) td {
+  background: transparent !important;
+}
+html.dark-mode .detail-meta-table td {
+  border-color: #2a2826 !important;
+  color: #d6d6d6 !important;
+}
+html.dark-mode .detail-meta-table th,
+html.dark-mode .detail-meta-table td:first-child {
+  color: #aaa !important;
+}
+
+/* Share inline buttons */
+html.dark-mode body .detail-share-inline-btn,
+html.dark-mode body a.detail-share-inline-btn {
+  background: #1e1c1a !important;
+  background-color: #1e1c1a !important;
+  border-color: #3a3836 !important;
+  color: #888 !important;
+}
+html.dark-mode body .detail-share-inline-btn:hover,
+html.dark-mode body a.detail-share-inline-btn:hover {
+  background: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+}
+
+/* Section titles */
+html.dark-mode .detail-section-title {
+  color: #888 !important;
+  border-bottom-color: #2a2826 !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   UPCOMING EVENTS — index.html event list dark mode
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Month label (JUL, DEC) */
+html.dark-mode .su-event-list-item__date .su-event-start-month,
+html.dark-mode .su-event-list-item__date .su-event-end-month {
+  color: var(--dm-text-mute) !important;
+}
+
+/* Day number (15, 3) */
+html.dark-mode .su-event-list-item__date .su-event-start-date,
+html.dark-mode .su-event-list-item__date .su-event-end-date {
+  color: #D6D6D6 !important;
+}
+
+/* Date/time line (📅 15 Jul 2026 → 17 Jul 2026) */
+html.dark-mode .views-field-su-event-date-time,
+html.dark-mode .views-field-su-event-date-time time,
+html.dark-mode .views-field-su-event-date-time div {
+  color: #D6D6D6 !important;
+}
+
+html.dark-mode .views-field-su-event-date-time span:before,
+html.dark-mode .date-icon:before {
+  color: #D6D6D6 !important;
+}
+
+/* Location line (📍 Pondicherry...) */
+html.dark-mode .views-field-su-event-address,
+html.dark-mode .views-field-su-event-address p,
+html.dark-mode .views-field-su-event-address span {
+  color: #D6D6D6 !important;
+}
+
+html.dark-mode .map-icon:before {
+  color: #D6D6D6 !important;
+}
+
+/* Separator line between events */
+html.dark-mode .su-event-list-item {
+  border-color: var(--dm-border) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CITE PANEL — detail page dark mode
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Tab buttons (inactive) */
+html.dark-mode .cite-tab-btn {
+  background: #1e1c1a !important;
+  color: #999 !important;
+  border-color: #3a3836 !important;
+}
+html.dark-mode .cite-tab-btn:hover {
+  background: #2a2826 !important;
+  color: #e05555 !important;
+  border-color: #e05555 !important;
+}
+html.dark-mode .cite-tab-btn.active {
+  background: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+  box-shadow: 0 -3px 10px rgba(177,4,14,0.25) !important;
+}
+
+/* Cite box wrapper */
+html.dark-mode .cite-box-wrap {
+  background: #1a1917 !important;
+  border-color: #3a3836 !important;
+}
+
+/* Cite text */
+html.dark-mode .cite-text {
+  color: #d6d6d6 !important;
+}
+
+/* Copy button — was white/invisible in dark mode */
+html.dark-mode .cite-copy-btn {
+  background: #2a2826 !important;
+  color: #e05555 !important;
+  border-color: #3a3836 !important;
+}
+html.dark-mode .cite-copy-btn:hover {
+  background: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+}
+
+/* Export RIS / Export BibTeX buttons */
+html.dark-mode .cite-export-btn {
+  background: #8c1514 !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 3px 10px rgba(177,4,14,0.2) !important;
+}
+html.dark-mode .cite-export-btn:hover {
+  background: #b1040e !important;
+  box-shadow: 0 4px 14px rgba(177,4,14,0.35) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   KEYWORD BUTTONS — detail page dark mode
+   ═══════════════════════════════════════════════════════════════ */
+
+html.dark-mode .detail-keyword {
+  background: rgba(177,4,14,0.12) !important;
+  border-color: rgba(177,4,14,0.35) !important;
+  color: #e05555 !important;
+  box-shadow: none !important;
+}
+html.dark-mode .detail-keyword:hover {
+  background: #b1040e !important;
+  color: #fff !important;
+  border-color: #b1040e !important;
+  box-shadow: 0 3px 10px rgba(177,4,14,0.3) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PUBLICATION DETAILS TABLE — stronger dark mode overrides
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Force all cells dark — beats the light-mode nth-child rules */
+html.dark-mode body .detail-meta-table td,
+html.dark-mode body .detail-meta-table th,
+html.dark-mode body .detail-meta-table tr td {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+html.dark-mode body .detail-meta-table tr:nth-child(even) td {
+  background: rgba(255,255,255,0.04) !important;
+  background-color: rgba(255,255,255,0.04) !important;
+}
+html.dark-mode body .detail-meta-table tr:nth-child(odd) td {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Subtle highlight on row hover instead of white */
+html.dark-mode body .detail-meta-table tr:hover td {
+  background: rgba(177,4,14,0.07) !important;
+  background-color: rgba(177,4,14,0.07) !important;
+  transition: background 0.15s;
+}
+
+/* Cell text colours */
+html.dark-mode body .detail-meta-table td,
+html.dark-mode body .detail-meta-table td p {
+  color: #d6d6d6 !important;
+  border-color: #2a2826 !important;
+}
+html.dark-mode body .detail-meta-table td:first-child {
+  color: #999 !important;
+}
+
+/* ── No-abstract info box ── */
+html.dark-mode body .detail-no-abstract,
+html.dark-mode .detail-no-abstract {
+  background: #1a1917 !important;
+  background-color: #1a1917 !important;
+  border-color: #3a3836 !important;
+  color: #777 !important;
+}
+
+/* ── No-abstract box — boost specificity to beat inline styles ── */
+html.dark-mode body .detail-no-abstract,
+html.dark-mode body #pubDetailView .detail-no-abstract {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: #3a3836 !important;
+  color: #666 !important;
+}
+
+/* ── Publication details table row hover — solid dark colour ── */
+html.dark-mode body .detail-meta-table tr:hover td,
+html.dark-mode body .detail-meta-table tr:nth-child(even):hover td,
+html.dark-mode body .detail-meta-table tr:nth-child(odd):hover td {
+  background: #23211f !important;
+  background-color: #23211f !important;
+  transition: background 0.15s;
+}
+
+/* ── Mobile filter drawer dark mode ── */
+@media (max-width: 900px) {
+  html.dark-mode .research-sidebar {
+    background: #1e1c1a !important;
+  }
+  html.dark-mode .filter-sidebar-header {
+    background: #1e1c1a !important;
+    border-bottom-color: #3a3836 !important;
+  }
+  html.dark-mode .research-sidebar::before {
+    background: #3a3836 !important;
+  }
+  html.dark-mode .research-sidebar .filter-group,
+  html.dark-mode .filter-group {
+    background: transparent !important;
+    background-color: transparent !important;
+    border-bottom-color: #2a2826 !important;
+  }
+  html.dark-mode .filter-close-btn {
+    background: #2a2826 !important;
+    color: #aaa !important;
+  }
+  html.dark-mode .filter-close-btn:hover {
+    background: #b1040e !important;
+    color: #fff !important;
+  }
+  html.dark-mode .mobile-filter-toggle {
+    background: #1e2a3e !important;
+    background-color: #1e2a3e !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 10px 20px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    box-shadow: 0 2px 10px rgba(30,42,62,0.35) !important;
+  }
+  html.dark-mode .mobile-filter-toggle:hover {
+    background: #b1040e !important;
+    background-color: #b1040e !important;
+    color: #fff !important;
+    transform: translateY(-1px) !important;
+  }
+  html.dark-mode .mobile-result-count {
+    color: #777 !important;
+  }
+  /* Meta table: dark label on mobile stacked layout */
+  html.dark-mode .detail-meta-table td:first-child {
+    color: #666 !important;
+    background: transparent !important;
+  }
+}

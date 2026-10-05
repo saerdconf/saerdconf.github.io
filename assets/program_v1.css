@@ -1,0 +1,45 @@
+/* Program + speakers pages. Colours fall back to the SAERD green/gold if the site theme doesn't define them. */
+:root { --saerd-green:#1f4d3a; --saerd-gold:#c9a227; --saerd-line:rgba(127,127,127,.28); }
+
+.slot{display:grid;grid-template-columns:9.5rem 1fr;gap:1rem;padding:.7rem 0;border-top:1px solid var(--saerd-line)}
+.slot-time{font-variant-numeric:tabular-nums;font-weight:600;color:var(--saerd-green)}
+.slot-title{font-weight:700}
+.slot-sub{opacity:.85}
+.slot-role{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;opacity:.7;margin-top:.4rem}
+.slot-people{display:flex;flex-direction:column;gap:.5rem}
+.person .aff{display:block;font-size:.85rem;opacity:.7}
+.slot-break,.slot-social{opacity:.75}
+.slot-break .slot-title{font-weight:500;font-style:italic}
+.slot-parallel{border-top:2px solid var(--saerd-gold);margin-top:.5rem}
+.slot-plenary .slot-title{color:var(--saerd-green)}
+
+.parallel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1rem;margin:.5rem 0 1.5rem}
+.session-card{border:1px solid var(--saerd-line);border-top:4px solid var(--saerd-green);border-radius:6px;padding:.9rem 1rem}
+.session-card.thesis{border-top-color:var(--saerd-gold)}
+.session-card header{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;font-size:.8rem;margin-bottom:.35rem}
+.session-card .code{background:var(--saerd-green);color:#fff;border-radius:4px;padding:0 .45rem;font-weight:700}
+.session-card .room{opacity:.7;text-transform:uppercase;letter-spacing:.05em}
+.session-card .badge{margin-left:auto;background:var(--saerd-gold);color:#222;border-radius:999px;padding:0 .6rem;font-weight:600}
+.session-title{font-weight:700;font-size:1.05rem;line-height:1.3}
+.chair{font-size:.9rem;margin:.3rem 0 .6rem;opacity:.85}
+.papers{padding-left:1.2rem;margin:0}
+.papers li{margin-bottom:.7rem}
+.paper-title{font-weight:600;line-height:1.35}
+.paper-authors{font-size:.88rem;opacity:.85}
+
+.speaker-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.25rem}
+.speaker-card{display:flex;flex-direction:column;border:1px solid var(--saerd-line);border-radius:8px;overflow:hidden}
+.speaker-photo{width:100%}
+.speaker-photo img,.speaker-photo .initials{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center top;border-radius:0}
+.speaker-photo .initials{display:flex;align-items:center;justify-content:center;background:var(--saerd-green);color:#fff;font-size:4.5rem;font-weight:700}
+.speaker-info{padding:.8rem 1rem 1rem;line-height:1.35}
+.speaker-info h3{margin:0 0 .15rem;font-size:1.02rem;line-height:1.25}
+.speaker-aff{font-size:.8rem;opacity:.85}
+.speaker-role{font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--saerd-green);margin:.35rem 0 .4rem;font-weight:600}
+.speaker-info p{font-size:.82rem;margin:0 0 .4rem;line-height:1.4}
+.bio-tba{font-style:italic;opacity:.65}
+
+@media (max-width:600px){
+  .slot{grid-template-columns:1fr;gap:.2rem}
+  .parallel-grid,.speaker-grid{grid-template-columns:1fr}
+}
