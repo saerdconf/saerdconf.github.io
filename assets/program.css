@@ -97,3 +97,27 @@ body.quarto-dark,.quarto-dark,:root[data-bs-theme="dark"],[data-bs-theme="dark"]
 }
 .quarto-dark .slot-parallel{background:#9a000d}
 .quarto-dark .session-card .badge{background:rgba(242,193,78,.16)}
+
+/* ---------- Speaker bios: short teaser on the card, full text in a dialog ---------- */
+.person.tba{font-weight:400;font-style:italic;opacity:.6}
+.bio-teaser{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.bio-btn{margin-top:.35rem;padding:.4rem .9rem;border:1px solid var(--saerd-line);border-radius:999px;background:transparent;color:var(--saerd-accent-text);font:inherit;font-size:.8rem;font-weight:600;cursor:pointer;transition:all .15s}
+.bio-btn:hover{background:var(--saerd-accent-tint);border-color:var(--saerd-accent-text)}
+
+.bio-dialog{width:min(94vw,720px);max-height:86vh;padding:0;border:0;border-radius:20px;box-shadow:0 24px 70px rgba(0,0,0,.45);overflow:auto;font-family:inherit}
+.bio-dialog::backdrop{background:rgba(8,12,18,.62);backdrop-filter:blur(3px)}
+.bio-close{position:absolute;top:.8rem;right:.9rem;width:2.2rem;height:2.2rem;border-radius:50%;border:1px solid var(--saerd-line);background:transparent;color:inherit;font-size:1.4rem;line-height:1;cursor:pointer}
+.bio-close:hover{background:var(--saerd-accent-tint);color:var(--saerd-accent-text)}
+.bio-head{display:flex;gap:1.1rem;align-items:center;padding:1.6rem 3.4rem 1.2rem 1.6rem;border-bottom:1px solid var(--saerd-line)}
+.bio-avatar{flex:0 0 88px}
+.bio-avatar img,.bio-avatar .initials{display:flex;align-items:center;justify-content:center;width:88px;height:88px;border-radius:50%;object-fit:cover;object-position:center top;background:linear-gradient(135deg,var(--saerd-accent),#6e0009);color:#fff;font-size:1.9rem;font-weight:800}
+.bio-head h3{margin:0 0 .15rem;font-size:1.3rem;font-weight:800;letter-spacing:-.02em;line-height:1.2}
+.bio-aff{font-size:.88rem;opacity:.7}
+.bio-head .speaker-role{margin:.5rem 0 0}
+.bio-body{padding:1.3rem 1.6rem 1.8rem;max-width:68ch}
+.bio-body p{font-size:1rem;line-height:1.7;margin:0 0 1rem;font-size:.98rem}
+.bio-body p:last-child{margin-bottom:0}
+@media (max-width:560px){
+  .bio-head{flex-direction:column;align-items:flex-start;padding:1.4rem 3rem 1rem 1.2rem}
+  .bio-body{padding:1.1rem 1.2rem 1.5rem}
+}
