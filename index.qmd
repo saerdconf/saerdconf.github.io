@@ -81,7 +81,7 @@ Participants will leave with a revised proposal (or chapter outline) and a clear
 
 ## Program and Speakers
 
-The full conference program — plenary sessions, panel discussions, and 24 parallel sessions with all accepted papers — is now available, along with our invited speakers.
+The full conference program — plenary sessions, panel discussions, and 23 parallel sessions with all accepted papers — is now available, along with our invited speakers.
 
 [View the Program](program.qmd){.btn .btn-primary .mt-3}
 [Meet the Speakers](speakers.qmd){.btn .btn-outline-primary .mt-3}
@@ -139,6 +139,73 @@ Participation is **free** for authors of selected papers. A limited number of **
 - **Visa:** Most nationalities can obtain a tourist visa online at [evisa.gov.kh](https://www.evisa.gov.kh) or on arrival. Check requirements before travelling.
 - **Currency:** Cambodian riel and US dollar.
 - **Weather in December:** December falls in the dry season — cool, sunny, and pleasant, around 22–32°C. Ideal conditions for the conference.
+
+## Explore Siem Reap
+
+Siem Reap is the gateway to the Angkor Archaeological Park, a UNESCO World Heritage Site. If you plan to visit the temples around the conference, here is what you need to know. The conference program is busy, so the days just before (1 December) and after (5 December) are the easiest times to explore.
+
+### How to Book Your Angkor Pass
+
+An Angkor Pass is required to enter the temples and is checked at the park entrance and at most major temples. **Buy it only from the official operator, Angkor Enterprise**, which sells at fixed prices. Tickets sold elsewhere may not be valid, and there is no cheaper price from hotels, drivers, or resellers.
+
+| Pass | Price (USD) | How long it is valid | Photo needed? |
+|---|---|---|---|
+| 1-day | $37 | The single day on the ticket | No |
+| 3-day | $62 | Any 3 days within 7 days | Yes |
+| 7-day | $72 | Any 7 days within 30 days | Yes |
+
+**How to book**
+
+1. **Choose your pass.** Most visitors find the 3-day pass the best value: it costs only $25 more than the 1-day pass and lets you split the temples across several days.
+2. **Buy it online** at [angkorenterprise.gov.kh](https://angkorenterprise.gov.kh) and keep the QR code ticket on your phone. For a 3-day or 7-day pass you upload a photo during checkout. Or **buy in person** at the Angkor Enterprise ticket office on Road 60 in Siem Reap, open daily from about 5:00 to 17:30. Cards are accepted.
+3. **Carry your ticket every day.** It is checked repeatedly, and the check is by name, so tickets are not transferable.
+
+**Good to know**
+
+- Tickets bought after 5:00 PM are normally valid from the next day, so you can buy in the evening and go straight to sunrise.
+- Children under 12 enter free, but staff may ask for a passport as proof of age.
+- **Dress code:** shoulders and knees must be covered at Angkor Wat and several other temples. Bring a light scarf or sarong.
+- **Opening hours:** Angkor Wat opens at about 5:00 AM for sunrise. Most other temples are open about 7:30 AM to 5:30 PM.
+- Prices and rules are those published by Angkor Enterprise at the time of writing. Please confirm on the official website before you buy.
+
+### Most Important Temples
+
+| Temple | Why visit | Tips |
+|---|---|---|
+| **Angkor Wat** | The largest religious monument in the world and the symbol of Cambodia | Go at sunrise or late afternoon to avoid the heat and the biggest crowds |
+| **Bayon (Angkor Thom)** | Over 50 towers carved with giant smiling faces, plus the Terrace of the Elephants | Best in the morning light |
+| **Ta Prohm** | The "jungle temple" where huge tree roots grow through the stones | Arrive early or late to avoid tour groups |
+| **Banteay Srei** | A small temple with some of the finest red sandstone carving at Angkor | Lies north of the main park, so plan extra travel time |
+| **Preah Khan** | A large, atmospheric temple with long corridors, usually quieter than the big three | Pairs well with Ta Prohm |
+| **Phnom Bakheng / Pre Rup** | Popular sunset viewpoints | Phnom Bakheng gets very crowded, and Pre Rup is a quieter alternative |
+| **Beng Mealea** | A remote, jungle-covered temple that feels like a discovery | Needs a half-day trip from the city |
+
+**One-day idea:** the "Small Circuit" of Angkor Wat, Bayon, and Ta Prohm can be done in one long day (a loop of about 17 km). With a 3-day pass, add Banteay Srei, Preah Khan, and a sunset spot.
+
+### Food to Try
+
+- **Fish amok:** fish steamed in a creamy coconut and lemongrass curry, often served in banana leaf. Cambodia's signature dish.
+- **Lok lak:** stir-fried beef with a tangy pepper-lime dipping sauce, usually served with rice and salad.
+- **Khmer red curry (kari):** a mild, coconut-based curry with chicken or beef, eaten with rice or bread.
+- **Nom banh chok:** fresh rice noodles with a green fish-based curry and herbs, a classic Khmer breakfast.
+- **Kuy teav:** a light noodle soup, popular for breakfast.
+- **Drinks and snacks:** iced Cambodian coffee, fresh sugarcane juice, fresh coconut, tropical fruit shakes, and Angkor beer.
+
+**Where to eat:** the **Old Market (Psar Chas)** and the **night markets** are good for street food and local snacks. **Pub Street** and the nearby lanes have the widest choice of restaurants and bars, and the cafés and Khmer restaurants around **Wat Bo** and **Kandal Village** are quieter. For street food, choose busy stalls where food is cooked fresh and served hot.
+
+### Fun Things to Do
+
+- **Phare, the Cambodian Circus:** an acrobatics, music, and theatre show telling Cambodian stories. It is also a social enterprise that supports arts training for young Cambodians. Shows are held in the evening, and booking ahead is wise.
+- **Apsara dance and dinner show:** classical Khmer dance with a Cambodian buffet.
+- **Markets and Pub Street at night:** souvenirs, silk, handicrafts, and street food. Bargain politely.
+- **Tonle Sap floating villages:** a boat trip to villages such as Kampong Phluk or Kompong Khleang, with stilt houses and flooded forest. Water levels are good for boat trips in December.
+- **Khmer cooking class:** learn to make amok and other dishes, usually with a market visit.
+- **Cambodia Landmine Museum:** a powerful look at Cambodia's recent history. It is near Banteay Srei, so it combines well with that temple.
+- **Angkor National Museum:** an air-conditioned museum that is a good midday break from the heat.
+- **Phnom Kulen:** a day trip to a sacred mountain with waterfalls and carved riverbed. It has separate entry fees.
+- **Cycling or a tuk-tuk day tour:** a relaxed way to see the temples. A private tuk-tuk driver for the day is a common choice.
+
+*Tip: bring sunscreen, a hat, and water, and be careful with food near the temples because monkeys may grab bags.*
 
 ---
 
