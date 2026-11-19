@@ -33,11 +33,25 @@ SAERD is designed to be both supportive and rigorous for young scholars from the
 **Host / Strategic Partner:**
 Agricultural and Rural Development Bank (ARDB), Cambodia — Akkak Pundit Sapheachar Aun Pornmoniroth Center (APM Center)
 
+```{=html}
+<style>
+.org-logos{display:flex;flex-wrap:wrap;gap:1rem;margin:.9rem 0 1.4rem}
+.org-logos .logo-tile{display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid rgba(127,127,127,.25);border-radius:14px;padding:.7rem 1.1rem;height:92px;min-width:150px;box-shadow:0 1px 2px rgba(0,0,0,.05),0 6px 16px rgba(0,0,0,.06)}
+.org-logos .logo-tile img{display:block;max-height:64px;max-width:190px;width:auto;height:auto;object-fit:contain}
+@media (max-width:600px){.org-logos .logo-tile{min-width:0;flex:1 1 42%;height:80px}.org-logos .logo-tile img{max-height:52px;max-width:100%}}
+</style>
+<div class="org-logos"><div class="logo-tile"><img src="images/ARDB_logo.png" alt="Agricultural and Rural Development Bank (ARDB)" loading="lazy"></div><div class="logo-tile"><img src="images/APM_logo.png" alt="Akkak Pundit Sapheachar Aun Pornmoniroth Center (APM Center)" loading="lazy"></div></div>
+```
+
 **Co-organisers:**
 
 - Young Scholars Initiative (YSI), Institute for New Economic Thinking (INET)
 - Paññāsāstra University of Cambodia (PUC) – Siem Reap Campus
 - Cambodia Development Resource Institute (CDRI)
+
+```{=html}
+<div class="org-logos"><div class="logo-tile"><img src="images/INET_logo.png" alt="Institute for New Economic Thinking (INET)" loading="lazy"></div><div class="logo-tile"><img src="images/YSI_logo.png" alt="Young Scholars Initiative (YSI)" loading="lazy"></div><div class="logo-tile"><img src="images/PUC_logo.png" alt="Paññāsāstra University of Cambodia (PUC)" loading="lazy"></div><div class="logo-tile"><img src="images/CDRI_logo.png" alt="Cambodia Development Resource Institute (CDRI)" loading="lazy"></div></div>
+```
 
 ---
 
@@ -81,7 +95,7 @@ Participants will leave with a revised proposal (or chapter outline) and a clear
 
 ## Program and Speakers
 
-The full conference program — plenary sessions, panel discussions, and 23 parallel sessions with all accepted papers — is now available, along with our invited speakers.
+The full conference program — plenary sessions, panel discussions, and 22 parallel sessions with all accepted papers — is now available, along with our invited speakers.
 
 [View the Program](program.qmd){.btn .btn-primary .mt-3}
 [Meet the Speakers](speakers.qmd){.btn .btn-outline-primary .mt-3}
